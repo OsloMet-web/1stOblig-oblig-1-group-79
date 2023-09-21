@@ -10,8 +10,7 @@ body {
   }
 
   img {
-    width: 1000px;
-    margin:0px;
-    border: 100px;
-    padding-right: 100px ;
+    width: auto;
+    height: auto;
+    padding:auto;
   }
