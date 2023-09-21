@@ -8,3 +8,9 @@ body {
   h3 {
     color: orangered;
   }
+
+  img {
+    width: auto;
+    height: auto;
+    padding:auto;
+  }
