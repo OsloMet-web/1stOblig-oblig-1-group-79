@@ -1,18 +1,26 @@
 body {
     background-color: lightgrey;
+    font-family: sans-serif;
+  }
+
+  header {
+    padding: 30px;
+    text-align: left;
+    font-size: 35px;
+    color: black
   }
 
   h1 {
     color: black;
-    font-size: 60px;
-  }
-  h3 {
-    color: orangered;
-    font-size: 15px;
+    font-size: 50px;
   }
 
-  h4 {
-    color: orangered;
+  h2{
+    color: black;
+  }
+  h3 {
+    color: rgb(66, 66, 66);
+    font-size: 15px;
   }
 
   h5 {
@@ -22,7 +30,7 @@ body {
 
   img {
     width:100%;
-    height: auto;
+    height: 600px;
   }
 
   p {
