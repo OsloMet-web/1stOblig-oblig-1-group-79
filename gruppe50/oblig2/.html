@@ -9,19 +9,16 @@
   box-sizing: border-box;
 }
 
-/* Style the body */
 body {
   font-family: Arial;
   margin: 0;
 }
 
-/* Style the top navigation bar */
 .navbar {
   display: flex;
   background-color: #333;
 }
 
-/* Style the navigation bar links */
 .navbar a {
   color: white;
   padding: 14px 20px;
@@ -29,40 +26,33 @@ body {
   text-align: center;
 }
 
-/* Change color on hover */
 .navbar a:hover {
   background-color: #ddd;
   color: black;
 }
 
-/* Column container */
 .row {  
   display: flex;
   flex-wrap: wrap;
 }
 
-/* Main column */
 .main {
   flex: 70%;
   background-color: white;
   padding: 20px;
 }
 
-/* Fake image, just for this example */
 .fakeimg {
-  background-color: #aaa;
-  width: 100%;
+  width: 60%;
   padding: 20px;
 }
 
-/* Footer */
 .footer {
   padding: 20px;
   text-align: center;
   background: #ddd;
 }
 
-/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 700px) {
   .row, .navbar {   
     flex-direction: column;
@@ -72,7 +62,6 @@ body {
 </head>
 <body>
 
-<!-- Navigation Bar -->
 <div class="navbar">
   <a href="#">Home</a>
   <a href="#">DATA1200</a>
@@ -84,7 +73,10 @@ body {
   <div class="main">
     <h2>10 FASCINATING FACTS ABOUT ROSES THAT WILL SIMPLY ASTONISH YOU</h2>
     <h5>Title description, Dec 7, 2017</h5>
-    <div class="fakeimg" style="height:200px;">Image</div>
+    <div class="fakeimg">
+        <img src="img/roses.jpeg" style="width: 100%">
+    </div>
+ 
     <p>Some text..</p>
     <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
     <br>
@@ -96,7 +88,6 @@ body {
   </div>
 </div>
 
-<!-- Footer -->
 <div class="footer">
   <h2>Footer</h2>
 </div>
