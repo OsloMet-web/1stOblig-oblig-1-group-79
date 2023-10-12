@@ -20,7 +20,7 @@ body {
     color: black;
   }
   h3 {
-    color: red;
+    color: black(0, 0, 0);
     font-size: 15px;
   }
 
