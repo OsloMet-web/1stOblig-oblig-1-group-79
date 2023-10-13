@@ -3,6 +3,8 @@ body {
     font-family: sans-serif;
     line-height: 1.5;
     text-align: left;
+    margin-left: 1em;
+    margin-right: 1em;
   }
 
   header {
@@ -18,11 +20,16 @@ body {
   }
 
   h2{
-    color: black;
+    color: green;
+    font-size: 1em;
   }
   h3 {
-    color: black(0, 0, 0);
-    font-size: 15px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+  }
+  h4 {
+    color: black;
   }
 
   h5 {
@@ -37,6 +44,14 @@ body {
 
   p {
     color: black;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  p1 {
+    color: black;
+    font-size: 0.8em;
+    font-family: sans-serif;
   }
 
 .navbar {
@@ -52,6 +67,23 @@ body {
 }
 
 .navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.navbar2 {
+  display: flex;
+  background-color: darkblue;
+}
+
+.navbar2 a {
+  color: white;
+  padding: 14px 30px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.navbar2 a:hover {
   background-color: #ddd;
   color: black;
 }
