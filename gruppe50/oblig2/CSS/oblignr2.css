@@ -44,6 +44,11 @@ body {
     color: black;
   }
 
+  p1 {
+    color: black;
+    font-size: 1em;
+  }
+
 .navbar {
   display: flex;
   background-color: #333;
