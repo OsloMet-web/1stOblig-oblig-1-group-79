@@ -3,30 +3,18 @@ body {
     font-family: sans-serif;
     line-height: 1.5;
     text-align: left;
-  }
-
-  header {
-    padding: 30px;
-    text-align: left;
-    font-size: 35px;
-    color: black
+    color: black;
   }
 
   h1 {
-    color: black;
     font-size: 50px;
   }
 
   h2{
-    color: black(12, 12, 12);
     font-size: 1em;
   }
   h3 {
-    color: black;
     font-size: 1.5em;
-  }
-  h4 {
-    color: black;
   }
 
   h5 {
@@ -48,7 +36,6 @@ body {
     color: black;
     font-size: 0.8em;
   }
-
 .navbar {
   display: flex;
   background-color: #333;
