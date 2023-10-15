@@ -4,8 +4,18 @@ body {
     line-height: 1.5;
     text-align: left;
     color: black;
-  }
 
+  }
+  p{
+    position: relative;
+    top: 10px;
+    left: 80px;
+    margin: 5px;
+    padding: 15px;
+    width: 760px;
+    z-index: 50px;
+   
+  }
   h1 {
     font-size: 50px;
   }
@@ -66,7 +76,7 @@ body {
 }
 
 footer {
-  background-color: #777;
+  background-color: lightpink;
   padding: 10px;
   text-align: center;
   color: white;

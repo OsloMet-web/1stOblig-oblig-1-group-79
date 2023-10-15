@@ -2,6 +2,7 @@ body {
   font-family: Arial;
   margin: 0;
   line-height: 1.5;
+
 }
 
 
@@ -39,7 +40,8 @@ li a:hover:not(.active) {
   color: gray;
 }
 footer {
-  background-color: #777;
+  background-color: lightpink;
   padding: 10px;
   text-align: center;
+
 }
