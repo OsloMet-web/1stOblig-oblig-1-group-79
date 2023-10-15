@@ -57,22 +57,6 @@ body {
   color: black;
 }
 
-.navbar2 {
-  display: flex;
-  background-color: rgb(231, 187, 193);
-}
-
-.navbar2 a {
-  color: white;
-  padding: 14px 30px;
-  text-decoration: none;
-  text-align: center;
-}
-
-.navbar2 a:hover {
-  background-color: #eda9a9;
-  color: black;
-}
 
 footer {
   background-color: lightpink;
