@@ -41,13 +41,6 @@ body {
     font-size: 0.8em;
   }
 
-  p2 {
-    color: red;
-    font-size: 1em;
-  }
-
-
-
 .navbar {
   display: flex;
   background-color: #333;
