@@ -1,9 +1,12 @@
 body {
-    background-color: lightgrey;
+    background-color: white;
     font-family: sans-serif;
     line-height: 1.5;
     text-align: left;
     color: black;
+  }
+  header{
+    padding: auto;
   }
   p{
     position: relative;
@@ -43,7 +46,7 @@ body {
 
 .navbar {
   display: flex;
-  background-color: #333;
+  background-color: lightpink;
 }
 
 .navbar a {
@@ -60,7 +63,7 @@ body {
 
 .navbar2 {
   display: flex;
-  background-color: darkblue;
+  background-color: lightpink;
 }
 
 .navbar2 a {
