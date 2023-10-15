@@ -16,6 +16,7 @@ body {
     padding: 15px;
     width: 760px;
     z-index: 50px;
+    font-size: 20px;
    
   }
   h1 {
@@ -32,11 +33,6 @@ body {
   img {
     width:100%;
     height: auto;
-  }
-
-  p {
-    color: black;
-    font-size: 2em;
   }
 
   p1 {
