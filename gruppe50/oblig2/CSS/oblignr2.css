@@ -46,20 +46,20 @@ body {
 }
 
 .navbar a {
-  color: white;
+  color: rgb(247, 241, 246);
   padding: 14px 20px;
   text-decoration: none;
   text-align: center;
 }
 
 .navbar a:hover {
-  background-color: #ddd;
+  background-color: #efb2df;
   color: black;
 }
 
 .navbar2 {
   display: flex;
-  background-color: lightpink;
+  background-color: rgb(231, 187, 193);
 }
 
 .navbar2 a {
@@ -70,7 +70,7 @@ body {
 }
 
 .navbar2 a:hover {
-  background-color: #ddd;
+  background-color: #eda9a9;
   color: black;
 }
 
