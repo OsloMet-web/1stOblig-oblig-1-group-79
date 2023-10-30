@@ -4,10 +4,11 @@ body {
     line-height: 1.5;
     text-align: left;
     color: black;
-    margin: 0%;
   }
-
-  .main{
+  header{
+    padding: auto;
+  }
+  p{
     position: relative;
     top: 10px;
     left: 80px;
@@ -20,14 +21,10 @@ body {
   }
   h1 {
     font-size: 50px;
-    margin: 5px;
-    padding: 5px;
   }
 
   h2{
     font-size: 1em;
-    margin: 5px;
-    padding: 5px;
   }
   h3 {
     font-size: 1.5em;
@@ -38,66 +35,50 @@ body {
     height: auto;
   }
 
+
 .navbar {
   display: flex;
   background-color: lightpink;
-  
 }
 
 .navbar a {
   color: rgb(247, 241, 246);
-  padding: 14px 20px;
+  padding: 14px 30px;
   text-decoration: none;
   text-align: center;
-  margin-top: 0%;
 }
 
 .navbar a:hover {
   background-color: #efb2df;
   color: black;
+} 
+
+.navbar2 {
+  display: flex;
+  background-color: orange;
 }
 
+.navbar2 a {
+  color: white;
+  padding: 14px 30px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.navbar2 a:hover {
+  background-color: #fdf6f6;
+  color: black;
+}
 
 footer {
-  background-color: rgb(223, 144, 156);
+  background-color: lightpink;
   padding: 10px;
   text-align: center;
   color: white;
 }
 
 @media screen and (max-width: 700px) {
-  .row, .navbar, .main {   
+  .row, .navbar {   
     flex-direction: column;
   }
-  .main {
-    position: relative;
-    top: 10px;
-    left: 10px;
-    margin: 5px;
-    padding: 5px;
-    width: 400px;;
-    z-index: 60px;
-    font-size: 20px;
-  }
-}
-.Flowers1{
-  height : 20%;
-  width : 100%;
-
-}
-.Flower2{
-  height : 20%;
-  width : 100%;
-}
-.Flower3{
-  height : 20%;
-  width : 100%;
-}
-.church{
-  height : 20%;
-  width : 100%;
-}
-.Flower4{
-  height : 20%;
-  width : 100%;
 }
