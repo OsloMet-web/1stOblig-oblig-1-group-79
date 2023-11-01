@@ -44,8 +44,8 @@ body {
 
 .navbar {
   display: flex;
-  background-color: lightpink;
-  
+  background-color: mediumvioletred;
+ 
 }
 
 .navbar a {
@@ -79,14 +79,14 @@ body {
   color: black;
 }
 
-#footer2  {
-  background-color: rgb(223, 144, 156);
+footer  {
+  background-color: mediumvioletred;
   padding: 10px;
   text-align: center;
   color: white;
 }
 
-footer {
+#footerpage2 {
  
   background-color: orange;
   padding: 10px;
@@ -127,6 +127,10 @@ footer {
   width : 100%;
 }
 .Flower4{
+  height : 20%;
+  width : 100%;
+}
+.Lighthouse{
   height : 20%;
   width : 100%;
 }
