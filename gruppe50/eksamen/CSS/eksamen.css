@@ -73,7 +73,6 @@
     color: white;
     background-color: transparent;
 }
-<<<<<<< HEAD
 .course{
     width: 80%;
     margin: auto;
@@ -104,12 +103,11 @@ p{
     margin-bottom: 5%;
     padding: 20px 12px;
     box-sizing: border-box;
-=======
+}
 @media(max-width: 700px){
     .text-box h1{
         font-size: 26px;
         letter-spacing: 10px;
     }
     
->>>>>>> 4ed6e6c1fd9b463207e01231553bc252fe757ac5
 }
