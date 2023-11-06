@@ -122,3 +122,35 @@ p{
     background-size: cover;
     position: relative;
 }
+
+
+.navbar1-links{
+    flex: 1;
+    text-align: right;
+}
+.navbar1-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.navbar1-links ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.navbar1-links ul li::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: gold;
+    display: block;
+    margin: auto;
+
+}
+.navbar1-links ul li:hover::after{
+    width: 100%;
+    transition: 0.5s;
+
+}
