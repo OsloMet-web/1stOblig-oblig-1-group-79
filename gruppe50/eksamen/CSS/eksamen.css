@@ -115,12 +115,12 @@ p{
 /* Under her er ekstra css for aktuelt-siden. */
 
 .headerr{
-    min-height: 100vh;
+    /*min-height: 100vh;
     width:100%;
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../img/pilestredet.jpeg);
     background-position: center;
     background-size: cover;
-    position: relative;
+    position: relative; */
 }
 
 
