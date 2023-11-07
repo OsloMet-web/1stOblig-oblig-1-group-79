@@ -73,11 +73,18 @@
     color: white;
     background-color: transparent;
 }
-.course{
+
+section{
     width: 80%;
-    margin: auto;
+    margin: 80px auto;
+
+}
+.title{
+    
     text-align: center;
     padding-top: 100px;
+    font-size: 4vmin;
+    color: rgb(1, 1, 1);
 }
 h1{
     font-size: 36px;
@@ -95,12 +102,13 @@ p{
     margin-top: 5%;
     display: flex;
     justify-content: space-between;
+    color: #aa1313;
 }
 .course-col{
-    flex-basis: 31%;
-    background: #fff3f3;
-    border-radius: 10px;
-    margin-bottom: 5%;
+    flex-basis: 45%;
+    background: gold;
+    border-radius: 15px;
+    margin-bottom: 10%;
     padding: 20px 12px;
     box-sizing: border-box;
 }
