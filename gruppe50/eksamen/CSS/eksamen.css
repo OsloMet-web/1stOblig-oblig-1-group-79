@@ -80,13 +80,7 @@ section{
     margin: 80px auto;
 
 }
-.Campus{
-    
-    text-align: center;
-    padding-top: 100px;
-    font-size: 4vmin;
-    color: rgb(1, 1, 1);
-}
+
 h1{
     font-size: 36px;
     font-weight: 600;
@@ -101,23 +95,43 @@ p{
     line-height: 22px;
     padding: 10px;
 }
-
 .row{
     margin-top: 5%;
     display: flex;
     justify-content: space-between;
-    color: #aa1313;
 }
-.course-col{
+.campus{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    color: black;
+}
+
+
+.campus-col{
     flex-basis: 45%;
     border-radius: 15px;
-    margin-bottom: 15%;
+    margin-bottom: 30px;
     position: relative;
     overflow: hidden;
 }
 
-.course-col img{
+.campus-col img{
     width: 100%;
+}
+
+.layer{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+.layer:hover{
+    background-image: linear-gradient(rgba(194, 167, 86, 0.7),rgba(189, 153, 87, 0.7)),url(../img/oslomet.pilestedet.jpg);
+
 }
 
 @media(max-width: 700px){
