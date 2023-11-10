@@ -123,6 +123,12 @@ p{
         letter-spacing: 10px;
     }
 }
+footer  {
+    background-color: mediumvioletred;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
 
 /* Under her er ekstra css for aktuelt-siden. */
 
@@ -166,3 +172,10 @@ p{
     transition: 0.5s;
 
 }
+#footerpage2 {
+ 
+    background-color: orange;
+    padding: 10px;
+    text-align: left;
+    color: black;
+  }
