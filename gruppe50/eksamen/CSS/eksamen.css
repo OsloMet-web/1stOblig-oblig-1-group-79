@@ -127,10 +127,10 @@ p{
     }
 }
 footer  {
-    background-color: mediumvioletred;
+    background-color: orange;
     padding: 10px;
-    text-align: center;
-    color: white;
+    text-align: left;
+    color: black;
   }
 
 /* Under her er ekstra css for aktuelt-siden. */
