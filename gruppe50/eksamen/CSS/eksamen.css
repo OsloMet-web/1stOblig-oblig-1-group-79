@@ -28,13 +28,14 @@
 .navbar-links ul li{
     list-style: none;
     display: inline-block;
-    padding: 10px 16px;
+    padding: 8px 12px;
     position: relative;
 }
 
 .navbar-links{
     flex: 1;
     text-align: right;
+    padding-right: 500px;
 }
 
 .navbar-links ul li a{
