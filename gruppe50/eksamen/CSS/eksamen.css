@@ -113,6 +113,16 @@ p{
     line-height: 22px;
     padding: 10px;
 }
+#footerskrift{
+    color: blue;
+    font-size: 1em;
+    padding: 15px;
+}
+#footerskrift2{
+    color: red;
+    font-size: 1em;
+    padding: 10px;
+}
 .row{
     margin-top: 5%;
     display: flex;
