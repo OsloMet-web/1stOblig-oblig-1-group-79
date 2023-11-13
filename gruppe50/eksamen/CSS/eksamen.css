@@ -35,7 +35,7 @@
 .navbar-links{
     flex: 1;
     text-align: right;
-    padding-right: 500px;
+    padding-right: 150px;
 }
 
 .navbar-links ul li a{
