@@ -316,3 +316,65 @@ p{
   }
 
   /* Under her er ekstra css for dummy-siden. */
+
+  .header-dummy{
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+
+.navbar4-links{
+    flex: 1;
+    text-align: right;
+}
+.navbar4-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.navbar4-links ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+.navbar4-links ul li::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: gold;
+    display: block;
+    margin: auto;
+
+}
+.navbar4-links ul li:hover::after{
+    width: 100%;
+    transition: 0.5s;
+
+}
+#footerpage4  {
+    background-color: orange;
+    padding: 30px;
+    text-align: left;
+    color: black;
+  }
+  #footerheadline4{
+    text-align: left;
+    padding: 10px;
+  }
+
+  #footerskrift4{
+    color: pink;
+    font-size: 1em;
+    padding: 10px;
+    text-align: left;
+}
+  #footerlist4 {
+    font-size: 1em;
+    padding: 10px;
+    text-align: left;
+    line-height: 1.7;
+    margin-left: 50px;
+  }
