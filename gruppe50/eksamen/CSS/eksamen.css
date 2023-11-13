@@ -163,13 +163,13 @@ p{
 }
 #footerpage1  {
     background-color: orange;
-    padding: 25px;
+    padding: 40px;
     text-align: left;
     color: black;
   }
   #footerlist {
     font-size: 1em;
-    padding: 10px;
+    padding: 2px;
     text-align: left;
     line-height: 1.5;
     margin-left: 0px;
@@ -223,7 +223,7 @@ p{
 }
 #footerpage2 {
     background-color: orange;
-    padding: 25px;
+    padding: 40px;
     text-align: left;
     color: black;
   }
@@ -234,7 +234,7 @@ p{
 }
 #footerlist2 {
     font-size: 1em;
-    padding: 10px;
+    padding: 2px;
     text-align: left;
     line-height: 1.5;
     margin-left: 0px;
