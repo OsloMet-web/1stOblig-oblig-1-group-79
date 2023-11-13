@@ -172,13 +172,15 @@ p{
     padding: 2px;
     text-align: left;
     line-height: 1.5;
-    margin-left: 0px;
+    margin-left: 30px;
   }
 
   #footerskrift{
     color: blue;
     font-size: 1em;
     padding: 15px;
+    text-align: left;
+    margin-left: 0px;
 }
 
 
@@ -231,6 +233,7 @@ p{
     color: red;
     font-size: 1em;
     padding: 10px;
+    margin-left: 30px;
 }
 #footerlist2 {
     font-size: 1em;
