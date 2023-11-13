@@ -227,15 +227,15 @@ p{
     text-align: left;
     color: black;
   }
-  #footerlist2 {
+  #footerskrift2{
+    color: red;
+    font-size: 1em;
+    padding: 10px;
+}
+#footerlist2 {
     font-size: 1em;
     padding: 10px;
     text-align: left;
     line-height: 1.5;
     margin-left: 0px;
   }
-  #footerskrift2{
-    color: red;
-    font-size: 1em;
-    padding: 10px;
-}
