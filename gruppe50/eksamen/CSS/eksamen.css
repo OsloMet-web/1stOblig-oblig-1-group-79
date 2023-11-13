@@ -78,8 +78,8 @@
 }
 
 .text-box h1{
-    font-size: 70px;
-    letter-spacing: 10px;
+    font-size: 5em;
+    letter-spacing: 0.1em;
 }
 .white{
     color: white;
@@ -93,12 +93,19 @@ section{
 }
 
 h1{
-    font-size: 36px;
+    font-size: 1.5em;
     font-weight: 600;
+}
+h2{
+    font-size: 1.5em;
 }
 h3 {
     font-size: 1.5em;
   }
+h4{
+    font-size: 1.5em;
+}
+
 p{
     color: #777;
     font-size: 14px;
@@ -153,9 +160,9 @@ p{
         letter-spacing: 10px;
     }
 }
-footer  {
+#footerpage1  {
     background-color: orange;
-    padding: 10px;
+    padding: 50px;
     text-align: left;
     color: black;
   }
