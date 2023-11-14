@@ -96,7 +96,7 @@ section{
 
 article{
     width: 100%;
-    margin: 80px auto;
+    margin-bottom: 50px;
 }
 
 h1{
@@ -324,9 +324,14 @@ hr{
 #bildeSide3{
     width: 100%;
 }
+
 #bildeSide3tekst{
     font-size: 0.8em;
     color: navy;
+}
+.course-col{
+    font-size: 1em;
+    text-align: left;
 }
 
 #footerpage3  {
