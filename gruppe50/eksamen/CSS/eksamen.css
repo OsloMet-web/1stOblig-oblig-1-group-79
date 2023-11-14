@@ -160,7 +160,7 @@ p{
     opacity: 0;
     transition: 1s;
 }
-.campus-col1:hover .layer1{
+.campus-col:hover .layer{
     opacity: 1;
 
 }
