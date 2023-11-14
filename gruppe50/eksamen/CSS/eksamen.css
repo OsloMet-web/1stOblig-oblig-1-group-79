@@ -23,9 +23,13 @@
     justify-content: space-between;
     align-items: center;
 }
-.nav img{
-    width: 150px;
+.logo{
+    width: 100px;
+    position: absolute;
+    top: 4%;
+    left: 5%;
 }
+
 .navbar-links ul li{
     list-style: none;
     display: inline-block;
@@ -38,9 +42,14 @@
 .navbar-links{
     flex: 1;
     text-align: right;
+<<<<<<< HEAD
     padding-right: 0%;
     padding-top: 0%;
     
+=======
+    padding-right: 3%;
+    padding-top: 2%;
+>>>>>>> d182afd764f0182f910f60a2a6c7eff7dbeab029
 }
 
 .navbar-links ul li a{
@@ -51,13 +60,6 @@
    
 }
 
-.navbar .logo{
-    width: 100px;
-    cursor: pointer;
-    margin-top: 1%;
-    margin-left: 1%;
-
-}
 
 .navbar-links ul li::after{
     content: "";
@@ -100,8 +102,8 @@ section{
 }
 
 article{
-    width: 80%;
-    margin: 80px auto;
+    width: 100%;
+    margin-bottom: 50px;
 }
 
 h1{
@@ -138,10 +140,10 @@ p{
     flex-wrap: wrap;
     justify-content: space-around;
     margin: auto;
-    padding-top: 20px;
+    padding-top: 0px;
 }
 
-.campus-col1{
+.campus-col{
    flex-basis: 48%;;
    text-align: center;
    border-radius: 7px;
@@ -150,12 +152,12 @@ p{
    position: relative;
 }
 
-.campus-col1 img{
+.campus-col img{
     width: 100%;
     border-radius: 7px;
 
 }
-.layer1{
+.layer{
     width: 100%;
     height: 100%;
     position: absolute;
@@ -166,7 +168,7 @@ p{
     opacity: 0;
     transition: 1s;
 }
-.campus-col1:hover .layer1{
+.campus-col:hover .layer{
     opacity: 1;
 
 }
@@ -329,9 +331,14 @@ hr{
 #bildeSide3{
     width: 100%;
 }
+
 #bildeSide3tekst{
     font-size: 0.8em;
     color: navy;
+}
+.course-col{
+    font-size: 1em;
+    text-align: left;
 }
 
 #footerpage3  {
