@@ -221,7 +221,7 @@ hr{
     left: 0;
     transition: 0.5s;
 }
-.campus-col1:hover .layer1{
+.campus-col2:hover .layer2{
     opacity: 1;
 .layer2:hover{
     background-image: linear-gradient(rgba(194, 167, 86, 0.7),rgba(189, 153, 87, 0.7)),url(../img/kjeller.jpg);
