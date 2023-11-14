@@ -148,7 +148,7 @@ p{
     width: 100%;
 }
 
-.layer{
+.layer1{
     height: 100%;
     width: 100%;
     position: absolute;
@@ -156,7 +156,7 @@ p{
     left: 0;
     transition: 0.5s;
 }
-.layer:hover{
+.layer1:hover{
     background-image: linear-gradient(rgba(194, 167, 86, 0.7),rgba(189, 153, 87, 0.7)),url(../img/oslomet.pilestedet.jpg);
 
 }
@@ -170,17 +170,18 @@ p{
 .campus-col2{
     flex-basis: 45%;
     border-radius: 15px;
-    margin-bottom: 30px;
+    margin-bottom: 35px;
     position: relative;
     overflow: hidden;
     
 }
 
 .campus-col2 img{
-    width: 100%;
+    width: 750px;
+    height:600px;
 }
 
-.layer{
+.layer2{
     height: 100%;
     width: 100%;
     position: absolute;
@@ -188,7 +189,7 @@ p{
     left: 0;
     transition: 0.5s;
 }
-.layer:hover{
+.layer2:hover{
     background-image: linear-gradient(rgba(194, 167, 86, 0.7),rgba(189, 153, 87, 0.7)),url(../img/kjeller.jpg);
 
 }
