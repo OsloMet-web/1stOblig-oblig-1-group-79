@@ -224,6 +224,34 @@ hr{
 .campus-col2:hover .layer2{
     opacity: 1;
 }
+.campus-description{
+    width: 80%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 1s;
+    top: 15%;
+}
+hr{
+    background: white;
+    height: 2px;
+    border: 0;
+    margin: 15px auto;
+    width: 60%;
+}
+.campus-description2 p{
+    font-size: 14px;
+    color: white;
+}
+.campus-description2 h3{
+    font-size: 20px;
+}
+.campus-description2:hover .campus-description2{
+    bottom: 40%;
+    opacity: 1;
+
+}
 
 @media(max-width: 700px){
     .text-box h1{
