@@ -193,8 +193,27 @@ hr{
 
 }
 
-/*
-.layer{
+@media(max-width: 700px){
+    .text-box h1{
+        font-size: 26px;
+        letter-spacing: 10px;
+    }
+}
+.campus-col2{
+    flex-basis: 45%;
+    border-radius: 15px;
+    margin-bottom: 35px;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.campus-col2 img{
+    width: 800px;
+    height:600px;
+}
+
+.layer2{
     height: 100%;
     width: 100%;
     position: absolute;
@@ -202,10 +221,10 @@ hr{
     left: 0;
     transition: 0.5s;
 }
-.layer:hover{
-    background-image: linear-gradient(rgba(194, 167, 86, 0.7),rgba(189, 153, 87, 0.7)),url(../img/oslomet.pilestedet.jpg);
+.layer2:hover{
+    background-image: linear-gradient(rgba(194, 167, 86, 0.7),rgba(189, 153, 87, 0.7)),url(../img/kjeller.jpg);
+
 }
-*/
 
 @media(max-width: 700px){
     .text-box h1{
@@ -213,31 +232,6 @@ hr{
         letter-spacing: 10px;
     }
 }
-#footerpage1  {
-    background-color: orange;
-    padding: 30px;
-    text-align: left;
-    color: black;
-  }
-  #footerheadline{
-    text-align: left;
-    padding: 10px;
-  }
-
-  #footerskrift{
-    color: blue;
-    font-size: 1em;
-    padding: 10px;
-    text-align: left;
-}
-  #footerlist {
-    font-size: 1em;
-    padding: 10px;
-    text-align: left;
-    line-height: 1.7;
-    margin-left: 50px;
-  }
-
 
 /* Under her er ekstra css for tilgjenglighet-siden. */
 
@@ -342,6 +336,14 @@ hr{
     transition: 0.5s;
 
 }
+#bildeSide3{
+    width: 100%;
+}
+#bildeSide3tekst{
+    font-size: 0.8em;
+    color: navy;
+}
+
 #footerpage3  {
     background-color: orange;
     padding: 30px;
