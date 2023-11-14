@@ -299,6 +299,10 @@ p{
 #bildeSide3{
     width: 100%;
 }
+#bildeSide3tekst{
+    font-size: 0.8em;
+    color: navy;
+}
 
 #footerpage3  {
     background-color: orange;
