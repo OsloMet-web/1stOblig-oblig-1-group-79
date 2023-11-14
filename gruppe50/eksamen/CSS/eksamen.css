@@ -12,7 +12,6 @@
     background-size: cover;
     position: relative;
     margin: 0;
-   
 }
 
 
@@ -22,24 +21,25 @@
     justify-content: space-between;
     align-items: center;
 }
-.nav img{
-    width: 150px;
+.logo{
+    width: 100px;
+    position: absolute;
+    top: 4%;
+    left: 5%;
 }
+
 .navbar-links ul li{
     list-style: none;
     display: inline-block;
     padding: 8px 12px;
     position: relative;
-    line-height: 100px;
-
 }
 
 .navbar-links{
     flex: 1;
     text-align: right;
-    padding-right: 0%;
-    padding-top: 0%;
-    
+    padding-right: 3%;
+    padding-top: 2%;
 }
 
 .navbar-links ul li a{
@@ -47,16 +47,11 @@
     text-decoration: none;
     font-size: 0.8em;
     font-family: arial;
+    padding: 2 20%;
+    
    
 }
 
-.navbar .logo{
-    width: 100px;
-    cursor: pointer;
-    margin-top: 1%;
-    margin-left: 1%;
-
-}
 
 .navbar-links ul li::after{
     content: "";
@@ -140,7 +135,7 @@ p{
     padding-top: 20px;
 }
 
-.campus-col1{
+.campus-col{
    flex-basis: 48%;;
    text-align: center;
    border-radius: 7px;
@@ -149,12 +144,12 @@ p{
    position: relative;
 }
 
-.campus-col1 img{
+.campus-col img{
     width: 100%;
     border-radius: 7px;
 
 }
-.layer1{
+.layer{
     width: 100%;
     height: 100%;
     position: absolute;
@@ -165,7 +160,7 @@ p{
     opacity: 0;
     transition: 1s;
 }
-.campus-col1:hover .layer1{
+.campus-col:hover .layer{
     opacity: 1;
 
 }
