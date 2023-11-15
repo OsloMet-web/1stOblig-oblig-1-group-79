@@ -94,6 +94,10 @@ section{
 }
 
 article{
+    width: 100%;
+    margin: 30px auto;
+}
+#dummyArticle{
     width: 80%;
     margin: 80px auto;
 }
