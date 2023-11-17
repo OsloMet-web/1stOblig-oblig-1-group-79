@@ -174,7 +174,7 @@ p{
     left: 50%;
     transform: translateX(-50%);
     transition: 1s;
-    top: 15%;
+    top: 25%;
     
 }
 hr{
@@ -198,27 +198,54 @@ hr{
 
 
 @media(max-width: 700px){
+    .nav{
+        flex-direction: column;
+        text-align: center;
+        padding: 2% 4;
+       
+    }
+    .navbar-links{
+        text-align: center;
+        padding: 2% 2%;
+        background-color: rgb(31, 62, 104);
+    }
+    .navbar-links ul li{
+        display: block;
+        padding: 8px 0;
+    }
+    .text-box{
+        width: 90%;
+        top: 30%;
+    }
+    .text-box h1{
+        font-size: 26px;
+        letter-spacing: 5px;
+    }
+    .logo{
+        display: none;
+    }
     .text-box h1{
         font-size: 26px;
         letter-spacing: 10px;
     }
     .campus-col{
-        flex-basis: 60%;
+        flex-basis: 100%;
         margin-bottom: 30px;
     }
     .campus-description p{
-        font-size: 12px;
+        font-size: 17px;
     }
     .campus-description h3{
-        font-size: 14px;
+        font-size: 19px;
     }
     hr{
-        margin: 5px auto;
+        margin: 6px auto;
 
     }
     .campus-col:hover .campus-description{
     bottom: 25% !important;
     }
+
 }
 
 /* Under her er ekstra css for tilgjenglighet-siden. */
