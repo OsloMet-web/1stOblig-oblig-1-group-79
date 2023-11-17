@@ -253,7 +253,7 @@ hr{
     width: 100%;
 }
 
-
+/*
 .navbar2-links ul li{
     list-style: none;
     display: inline-block;
@@ -291,6 +291,7 @@ hr{
     transition: 0.5s;
 
 }
+*/
 #footerpage2  {
     background-color: orange;
     padding: 30px;
@@ -315,7 +316,6 @@ hr{
     line-height: 1.7;
     margin-left: 50px;
   }
-  
 
 /* Under her er ekstra css for aktuelt-siden. */
 
