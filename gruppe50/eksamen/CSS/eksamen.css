@@ -273,6 +273,12 @@ hr{
   }
 */
 /* Under her er ekstra css for aktuelt-siden. */
+.header-aktuelt{
+    position: relative;
+    margin: 0%;
+    width: 100%;
+}
+
 footer {
     background-color: orange;
     padding: 30px;
@@ -339,7 +345,7 @@ footer ul{
 */
   /* Under her er ekstra css for dummy-siden. */
 
-  *header-dummy{
+  .header-dummy{
     position: relative;
     margin: 0%;
     width: 100%;
