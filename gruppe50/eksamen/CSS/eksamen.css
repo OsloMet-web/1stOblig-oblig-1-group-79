@@ -275,22 +275,22 @@ hr{
 /* Under her er ekstra css for aktuelt-siden. */
 
 footer {
-    background-color: cadetblue;
+    background-color: darkcyan;
     padding: 30px;
     text-align: left;
-    color: black;
+    color: lightcyan;
 }
 
 footer h3{
     padding: 30px;
     text-align: left;
-    color: black;
+    color: cyan;
     text-align: left;
     padding: 10px;
 }
 
 footer p{
-    color: red;
+    color: lightcyan;
     font-size: 1em;
     padding: 10px;
     text-align: left;
