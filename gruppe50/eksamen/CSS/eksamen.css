@@ -48,8 +48,6 @@
     font-size: 0.8em;
     font-family: arial;
     padding: 2 20%;
-    
-   
 }
 
 
@@ -131,7 +129,7 @@ p{
 }
 
 .row{
-    width: 100%;
+    width: 75%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -140,9 +138,10 @@ p{
 }
 
 .campus-col{
-   flex-basis: 48%;;
+   flex-basis: 43%;
    text-align: center;
-   border-radius: 7px;
+   top: 5%;
+   border-radius: 7%;
    margin-bottom: 20px;
    color: white;
    position: relative;
@@ -169,13 +168,14 @@ p{
 
 }
 .campus-description{
-    width: 80%;
+    width: 100%;
     position: absolute;
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
     transition: 1s;
     top: 15%;
+    
 }
 hr{
     background: white;
@@ -203,7 +203,7 @@ hr{
         letter-spacing: 10px;
     }
     .campus-col{
-        flex-basis: 100%;
+        flex-basis: 60%;
         margin-bottom: 30px;
     }
     .campus-description p{
