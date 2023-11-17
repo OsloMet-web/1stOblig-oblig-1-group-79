@@ -303,14 +303,15 @@ hr{
 .navbar2-links ul li:hover::after{
     width: 100%;
     transition: 0.5s;
-
 }
+/*
 #footerpage2  {
     background-color: orange;
     padding: 30px;
     text-align: left;
     color: black;
   }
+ 
   #footerheadline2{
     text-align: left;
     padding: 10px;
@@ -329,47 +330,43 @@ hr{
     line-height: 1.7;
     margin-left: 50px;
   }
-  
-
+*/
 /* Under her er ekstra css for aktuelt-siden. */
-
-.header-aktuelt{
-    background-position: center;
-    background-size: cover;
-    position: relative;
-}
-
-
-.navbar3-links{
-    flex: 1;
-    text-align: right;
-}
-.navbar3-links ul li{
-    list-style: none;
-    display: inline-block;
-    padding: 8px 12px;
-    position: relative;
-}
-.navbar3-links ul li a{
+footer {
+    background-color: orange;
+    padding: 30px;
+    text-align: left;
     color: black;
-    text-decoration: none;
-    font-size: 0.8em;
 }
 
-.navbar3-links ul li::after{
-    content: "";
-    width: 0%;
-    height: 2px;
-    background: gold;
-    display: block;
-    margin: auto;
-
+footer h3{
+    padding: 30px;
+    text-align: left;
+    color: black;
+    text-align: left;
+    padding: 10px;
 }
-.navbar3-links ul li:hover::after{
+
+footer p{
+    color: red;
+    font-size: 1em;
+    padding: 10px;
+    text-align: left;
+}
+footer ul{
+    font-size: 1em;
+    padding: 10px;
+    text-align: left;
+    line-height: 1.7;
+    margin-left: 50px;
+}
+.header-aktuelt{
+    position: relative;
+    margin: 0%;
     width: 100%;
-    transition: 0.5s;
-
 }
+
+
 #bildeSide3{
     width: 100%;
 }
@@ -378,12 +375,8 @@ hr{
     color: navy;
 }
 
-#footerpage3  {
-    background-color: orange;
-    padding: 30px;
-    text-align: left;
-    color: black;
-  }
+/*
+
   #footerheadline3{
     text-align: left;
     padding: 10px;
@@ -402,46 +395,16 @@ hr{
     line-height: 1.7;
     margin-left: 50px;
   }
-
+*/
   /* Under her er ekstra css for dummy-siden. */
 
   .header-dummy{
-    background-position: center;
-    background-size: cover;
     position: relative;
-}
-
-
-.navbar4-links{
-    flex: 1;
-    text-align: right;
-}
-.navbar4-links ul li{
-    list-style: none;
-    display: inline-block;
-    padding: 8px 12px;
-    position: relative;
-}
-.navbar4-links ul li a{
-    color: black;
-    text-decoration: none;
-    font-size: 0.8em;
-}
-
-.navbar4-links ul li::after{
-    content: "";
-    width: 0%;
-    height: 2px;
-    background: gold;
-    display: block;
-    margin: auto;
-
-}
-.navbar4-links ul li:hover::after{
+    margin: 0%;
     width: 100%;
-    transition: 0.5s;
-
 }
+
+/*
 #footerpage4  {
     background-color: orange;
     padding: 30px;
@@ -466,3 +429,4 @@ hr{
     line-height: 1.7;
     margin-left: 50px;
   }
+*/
