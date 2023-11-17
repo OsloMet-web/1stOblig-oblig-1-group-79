@@ -199,76 +199,15 @@ hr{
 }
 
 
-@media(max-width: 800px){
-    .nav{
-        flex-direction: column;
-        text-align: center;
-        padding: 2% 4%;
-       
-    }
-    .navbar-links{
-        text-align: center;
-        padding: 2% 2%;
-        background-color: rgb(31, 62, 104);
-    }
-    .navbar-links ul li{
-        display: block;
-        padding: 8px 0;
-    }
-    .text-box{
-        width: 80%;
-        top: 30%;
-    }
-    .logo{
-        display: none;
-    }
-    .text-box h1{
-        font-size: 30px;
-        letter-spacing: 10px;
-        margin-top: 80%;
-    }
-    .campus-col{
-        flex-basis: 100%;
-        margin-bottom: 30px;
-    }
-    .campus-description p{
-        font-size: 17px;
-    }
-    .campus-description h3{
-        font-size: 19px;
-    }
-    hr{
-        margin: 6px auto;
 
-    }
-    .campus-col:hover .campus-description{
-    bottom: 25% !important;
-    }
-
-}
 
 /* Under her er ekstra css for tilgjenglighet-siden. */
 
-.header-tilgjenglighet{
+*header-tilgjenglighet{
     position: relative;
     margin: 0%;
     width: 100%;
 }
-
-
-.nav2{
-    display: flex;
-    padding: 2% 6%;
-    justify-content: space-between;
-    align-items: center;
-}
-.logo2{
-    width: 100px;
-    position: absolute;
-    top: 4%;
-    left: 5%;
-}
-
 
 .navbar2-links ul li{
     list-style: none;
@@ -432,3 +371,51 @@ footer ul{
     margin-left: 50px;
   }
 */
+
+@media(max-width: 800px){
+    .nav{
+        flex-direction: column;
+        text-align: center;
+        padding: 2% 4%;
+       
+    }
+    .navbar-links{
+        text-align: center;
+        padding: 2% 2%;
+        background-color: rgb(31, 62, 104);
+    }
+    .navbar-links ul li{
+        display: block;
+        padding: 8px 0;
+    }
+    .text-box{
+        width: 80%;
+        top: 30%;
+    }
+    .logo{
+        display: none;
+    }
+    .text-box h1{
+        font-size: 30px;
+        letter-spacing: 10px;
+        margin-top: 80%;
+    }
+    .campus-col{
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+    .campus-description p{
+        font-size: 17px;
+    }
+    .campus-description h3{
+        font-size: 19px;
+    }
+    hr{
+        margin: 6px auto;
+
+    }
+    .campus-col:hover .campus-description{
+    bottom: 25% !important;
+    }
+
+}
