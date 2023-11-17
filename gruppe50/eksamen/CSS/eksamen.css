@@ -203,7 +203,7 @@ hr{
 
 /* Under her er ekstra css for tilgjenglighet-siden. */
 
-*header-tilgjenglighet{
+.header-tilgjenglighet{
     position: relative;
     margin: 0%;
     width: 100%;
