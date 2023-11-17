@@ -114,6 +114,7 @@ h4{
     font-size: 1.5em;
 }
 
+
 p{
     color: #777;
     font-size: 14px;
@@ -162,6 +163,7 @@ p{
     background: linear-gradient(rgba(0,0,0,0.5), #567bd4);
     opacity: 0;
     transition: 1s;
+    overflow: hidden;
 }
 .campus-col:hover .layer{
     opacity: 1;
@@ -175,7 +177,7 @@ p{
     transform: translateX(-50%);
     transition: 1s;
     top: 25%;
-    
+    max-width: 700px;
 }
 hr{
     background: white;
@@ -197,11 +199,11 @@ hr{
 }
 
 
-@media(max-width: 700px){
+@media(max-width: 800px){
     .nav{
         flex-direction: column;
         text-align: center;
-        padding: 2% 4;
+        padding: 2% 4%;
        
     }
     .navbar-links{
@@ -214,7 +216,7 @@ hr{
         padding: 8px 0;
     }
     .text-box{
-        width: 90%;
+        width: 80%;
         top: 30%;
     }
     .logo{
