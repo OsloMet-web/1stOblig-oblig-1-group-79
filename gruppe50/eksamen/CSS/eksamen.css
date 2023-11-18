@@ -156,15 +156,15 @@ p{
     width: 50%;
 }
 #bildeSide3tekst{
-    font-size: 0.8em;
-    color: navy;
-}
-
-.bildeSide3artikkel{
-    color: #777;
     font-size: 1em;
+    color: #777;
     line-height: 22px;
     text-align: left;
+}
+
+.bildeSide3kilde{
+    color: navy;
+    font-size: 0.8em;
 }
 
 .campus-col{
