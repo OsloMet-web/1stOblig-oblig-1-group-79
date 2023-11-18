@@ -148,11 +148,16 @@ p{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    font-size: 1em;
     justify-content: left;
     margin: auto;
     padding-top: 20px;
 
+}
+.bildeSide3artikkel{
+    color: #777;
+    font-size: 1em;
+    line-height: 22px;
+    padding-left: 500px;
 }
 
 .campus-col{
