@@ -116,14 +116,14 @@ h4{
 
 
 p{
-    color: #777;
+    color: black;
     font-size: 1em;
     font-weight: 300;
     line-height: 22px;
     padding: 10px;
 }
 #indexTekst{
-    color: #777;
+    color: black;
     font-size: 0.8em;
     font-weight: 300;
     line-height: 22px;
@@ -151,13 +151,21 @@ p{
     justify-content: left;
     margin: auto;
     padding-top: 20px;
-
 }
-.bildeSide3artikkel{
+#bildeSide3{
+    width: 50%;
+}
+#bildeSide3tekst{
     color: #777;
     font-size: 1em;
+    font-weight: 300;
     line-height: 22px;
-    padding-left: 500px;
+    padding-left: 50px;
+}
+
+.bildeSide3kilde{
+    color: navy;
+    font-size: 0.8em;
 }
 
 .campus-col{
@@ -330,14 +338,6 @@ footer ul{
     color: black;
 }
 
-
-#bildeSide3{
-    width: 50%;
-}
-#bildeSide3tekst{
-    font-size: 0.8em;
-    color: navy;
-}
 #bildeSide4{
     width: 100%;
 }
