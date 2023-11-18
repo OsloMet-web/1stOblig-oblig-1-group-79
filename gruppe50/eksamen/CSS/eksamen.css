@@ -316,6 +316,13 @@ footer ul{
     font-size: 0.8em;
     color: navy;
 }
+#bildeSide4{
+    width: 100%;
+}
+#bildeSide4tekst{
+    font-size: 0.8em;
+    color: navy;
+}
 
   /* Under her er ekstra css for dummy-siden. */
 
