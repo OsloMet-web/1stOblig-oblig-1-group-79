@@ -245,33 +245,7 @@ hr{
     width: 100%;
     transition: 0.5s;
 }
-/*
-#footerpage2  {
-    background-color: orange;
-    padding: 30px;
-    text-align: left;
-    color: black;
-  }
- 
-  #footerheadline2{
-    text-align: left;
-    padding: 10px;
-  }
 
-  #footerskrift2{
-    color: red;
-    font-size: 1em;
-    padding: 10px;
-    text-align: left;
-}
-  #footerlist2 {
-    font-size: 1em;
-    padding: 10px;
-    text-align: left;
-    line-height: 1.7;
-    margin-left: 50px;
-  }
-*/
 /* Under her er ekstra css for aktuelt-siden. */
 
 footer {
@@ -313,57 +287,8 @@ footer ul{
     color: navy;
 }
 
-/*
-
-  #footerheadline3{
-    text-align: left;
-    padding: 10px;
-  }
-
-  #footerskrift3{
-    color: green;
-    font-size: 1em;
-    padding: 10px;
-    text-align: left;
-}
-  #footerlist3 {
-    font-size: 1em;
-    padding: 10px;
-    text-align: left;
-    line-height: 1.7;
-    margin-left: 50px;
-  }
-*/
   /* Under her er ekstra css for dummy-siden. */
 
-
-
-/*
-#footerpage4  {
-    background-color: orange;
-    padding: 30px;
-    text-align: left;
-    color: black;
-  }
-  #footerheadline4{
-    text-align: left;
-    padding: 10px;
-  }
-
-  #footerskrift4{
-    color: pink;
-    font-size: 1em;
-    padding: 10px;
-    text-align: left;
-}
-  #footerlist4 {
-    font-size: 1em;
-    padding: 10px;
-    text-align: left;
-    line-height: 1.7;
-    margin-left: 50px;
-  }
-*/
 
 @media(max-width: 800px){
     .nav{
@@ -380,6 +305,17 @@ footer ul{
     .navbar-links ul li{
         display: block;
         padding: 8px 0;
+    }
+    .navbar2-links{
+        text-align: center;
+        padding: 2% 2%;
+        background-color: rgb(31, 62, 104);
+         
+    }
+    .navbar2-links ul li{
+        display: block;
+        padding: 8px 0;
+ 
     }
     .text-box{
         width: 80%;
