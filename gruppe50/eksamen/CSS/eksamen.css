@@ -275,8 +275,38 @@ footer ul{
     text-align: left;
     line-height: 1.7;
     margin-left: 50px;
+    color: whitesmoke;
 }
 
+#footerIndex {
+    background-color: orange;
+    padding: 30px;
+    text-align: left;
+    color: lightcyan;
+}
+
+#footerIndex h3{
+    padding: 30px;
+    text-align: left;
+    color: black;
+    text-align: left;
+    padding: 10px;
+}
+
+#footerIndex p{
+    color: black;
+    font-size: 1em;
+    padding: 10px;
+    text-align: left;
+}
+#footerIndex ul{
+    font-size: 1em;
+    padding: 10px;
+    text-align: left;
+    line-height: 1.7;
+    margin-left: 50px;
+    color: black;
+}
 
 
 #bildeSide3{
