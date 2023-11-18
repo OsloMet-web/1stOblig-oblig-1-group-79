@@ -168,6 +168,14 @@ p{
     font-size: 0.8em;
 }
 
+#bildeSide4{
+    width: 100%;
+}
+#bildeSide4kilde{
+    font-size: 0.8em;
+    color: navy;
+}
+
 .campus-col{
    flex-basis: 43%;
    text-align: center;
@@ -338,13 +346,6 @@ footer ul{
     color: black;
 }
 
-#bildeSide4{
-    width: 100%;
-}
-#bildeSide4tekst{
-    font-size: 0.8em;
-    color: grey;
-}
 
   /* Under her er ekstra css for dummy-siden. */
 
