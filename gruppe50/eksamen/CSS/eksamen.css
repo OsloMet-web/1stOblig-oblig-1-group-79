@@ -351,6 +351,9 @@ footer ul{
 
 
 @media(max-width: 800px){
+    .dummyArticle{
+        color: black;
+    }
     .nav{
         flex-direction: column;
         text-align: center;
@@ -369,7 +372,7 @@ footer ul{
     .navbar2-links{
         text-align: center;
         padding: 2% 2%;
-        background-color: rgb(31, 62, 104);
+        background-color:rgb(31, 62, 104);
          
     }
     .navbar2-links ul li{
