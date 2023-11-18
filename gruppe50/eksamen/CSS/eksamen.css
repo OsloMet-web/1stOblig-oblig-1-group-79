@@ -151,13 +151,21 @@ p{
     justify-content: left;
     margin: auto;
     padding-top: 20px;
-
 }
+#bildeSide3{
+    width: 50%;
+}
+#bildeSide3tekst{
+    font-size: 0.8em;
+    color: navy;
+}
+
 .bildeSide3artikkel{
     color: #777;
     font-size: 1em;
     line-height: 22px;
-    padding-left: 500px;
+    text-align: left;
+    font-display: auto;
 }
 
 .campus-col{
@@ -330,14 +338,6 @@ footer ul{
     color: black;
 }
 
-
-#bildeSide3{
-    width: 50%;
-}
-#bildeSide3tekst{
-    font-size: 0.8em;
-    color: navy;
-}
 #bildeSide4{
     width: 100%;
 }
