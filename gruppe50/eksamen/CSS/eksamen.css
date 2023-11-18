@@ -148,10 +148,11 @@ p{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    font-size: 1em;
     justify-content: left;
     margin: auto;
     padding-top: 20px;
-    font-size: 1em;
+
 }
 
 .campus-col{
