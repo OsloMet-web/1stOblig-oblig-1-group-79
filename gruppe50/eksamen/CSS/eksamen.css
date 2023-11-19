@@ -116,7 +116,7 @@ h4{
 
 
 p{
-    color: #777;
+    color: black;
     font-size: 1em;
     font-weight: 300;
     line-height: 22px;
@@ -279,7 +279,7 @@ footer {
     background-color: rgb(5, 34, 91);
     padding: 30px;
     text-align: left;
-    color: lightcyan;
+    color: white;
 }
 
 footer img{
@@ -291,11 +291,11 @@ footer img{
 
 
 footer h3{
-    padding: 30px;
     text-align: left;
     color: white;
     text-align: left;
-    padding: 10px;
+    padding: 5px;
+    font-size: 1em;
 }
 
 footer p{
@@ -325,14 +325,14 @@ footer ul{
     text-align: left;
     color: black;
     text-align: left;
-    padding: 0px;
+    padding: 5px;
     font-size: 1em;
 }
 
 #footerIndex p{
     color: black;
     font-size: 1em;
-    padding: 1px;
+    padding: 10px;
     text-align: left;
 }
 #footerIndex ul{
