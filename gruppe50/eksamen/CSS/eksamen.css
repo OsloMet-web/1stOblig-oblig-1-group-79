@@ -340,6 +340,8 @@ footer ul{
 #bildeSide3tekst{
     font-size: 0.8em;
     color: black;
+    line-height: 25px;
+    padding-left: 50px;
 }
 .bildeSide3kilde{
     font-size: 0.8em;
