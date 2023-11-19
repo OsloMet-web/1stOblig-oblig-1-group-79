@@ -276,7 +276,7 @@ hr{
 
 
 footer {
-    background-color: darkcyan;
+    background-color: rgb(5, 34, 91);
     padding: 30px;
     text-align: left;
     color: lightcyan;
@@ -318,7 +318,6 @@ footer ul{
     padding: 30px;
     text-align: left;
     color: lightcyan;
-    footer img;
 }
 
 #footerIndex h3{
