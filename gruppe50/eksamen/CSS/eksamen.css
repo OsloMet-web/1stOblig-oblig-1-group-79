@@ -269,21 +269,24 @@ hr{
 }
 
 .Lighthouse{
+    width: 600px;
+    padding: 10px;
     display: block;
-     width: 60%;
-     margin: auto;
+
 }
 
 
 .kontraster{
+    width: 600px;
+    padding: 10px;
     display: block;
-     width: 60%;
-     margin: auto;
+
 }
 .tilgjenglighet100{
+    width: 600px;
+    padding: 10px;
     display: block;
-     width: 60%;
-     margin: auto;
+
 
 }
 
@@ -309,7 +312,9 @@ div.desc{
 }
 /* Under her er ekstra css for aktuelt-siden. */
 
-
+.course{
+    margin: 10%;
+}
 
 footer {
     background-color: rgb(5, 9, 67);
