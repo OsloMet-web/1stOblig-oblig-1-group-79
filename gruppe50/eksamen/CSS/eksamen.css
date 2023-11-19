@@ -283,10 +283,10 @@ footer {
 }
 
 footer img{
-    top: 4%;
     width: 100px;
-    right: 5%;
-
+    position:sticky;
+    top: 4%;
+    right:auto;
 }
 
 
@@ -318,6 +318,7 @@ footer ul{
     padding: 30px;
     text-align: left;
     color: lightcyan;
+    footer img;
 }
 
 #footerIndex h3{
