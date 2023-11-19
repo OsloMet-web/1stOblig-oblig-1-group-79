@@ -182,7 +182,7 @@ p{
     top: 0%;
     border-radius: 7px;
     cursor: pointer;
-    background: linear-gradient(rgba(180, 6, 6, 0.5), #172344);
+    background: linear-gradient(rgba(180, 6, 32, 0.715), #a93434);
     opacity: 0;
     transition: 1s;
     overflow: hidden;
