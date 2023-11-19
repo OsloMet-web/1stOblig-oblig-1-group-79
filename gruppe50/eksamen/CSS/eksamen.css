@@ -279,6 +279,34 @@ hr{
     max-width: 600px;
 
 }
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+.box{
+    width: 150px;
+    height: 150px;
+    font-size: 8em;
+    text-align: center;
+    border-radius: 15px;
+
+
+}
+#box1{
+    background-color: red;
+}
+#box2{
+    background-color: yellow;
+}
+#box3{
+    background-color: green;
+}
+#box4{
+    background-color:blueviolet ;
+}
+
 /* Under her er ekstra css for aktuelt-siden. */
 
 
