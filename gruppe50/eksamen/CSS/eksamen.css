@@ -258,7 +258,7 @@ hr{
     content: "";
     width: 0%;
     height: 2px;
-    background: darkcyan;
+    background: #1e167b;
     display: block;
     margin: auto;
 
@@ -271,16 +271,22 @@ hr{
 .Lighthouse{
     max-width: 600px;
 }
+
+.kontraster{
+    max-width: 600px;
+}
+
 /* Under her er ekstra css for aktuelt-siden. */
 
 
 
 footer {
-    background-color: rgb(5, 34, 91);
+    background-color: rgb(7, 15, 109);
     padding: 30px;
     text-align: left;
     color: white;
 }
+
 
 footer img{
     width: 100px;
@@ -290,7 +296,7 @@ footer img{
 }
 
 
-footer h3{
+footer h2{
     text-align: left;
     color: white;
     text-align: left;
@@ -380,11 +386,13 @@ footer ul{
     .navbar-links{
         text-align: center;
         padding: 2% 2%;
-        background-color: rgb(31, 62, 104);
+        background-color:rgb(31, 62, 104);
+         
     }
     .navbar-links ul li{
         display: block;
         padding: 8px 0;
+ 
     }
     .navbar2-links{
         text-align: center;
