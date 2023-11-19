@@ -276,17 +276,17 @@ hr{
 
 
 footer {
-    background-color: darkcyan;
+    background-color: rgb(5, 34, 91);
     padding: 30px;
     text-align: left;
     color: lightcyan;
 }
 
 footer img{
-    top: 4%;
     width: 100px;
-    right: 5%;
-
+    position:sticky;
+    top: 4%;
+    right:auto;
 }
 
 
