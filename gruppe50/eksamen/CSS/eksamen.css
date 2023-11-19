@@ -258,7 +258,7 @@ hr{
     content: "";
     width: 0%;
     height: 2px;
-    background: darkcyan;
+    background: #1e167b;
     display: block;
     margin: auto;
 
@@ -281,11 +281,12 @@ hr{
 
 
 footer {
-    background-color: darkcyan;
+    background-color: rgb(7, 15, 109);
     padding: 30px;
     text-align: left;
     color: white;
 }
+
 
 footer img{
     width: 100px;
