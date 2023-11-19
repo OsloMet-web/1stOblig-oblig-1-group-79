@@ -271,12 +271,16 @@ hr{
 .Lighthouse{
     max-width: 600px;
 }
+
+.kontraster{
+    max-width: 400px;
+}
 /* Under her er ekstra css for aktuelt-siden. */
 
 
 
 footer {
-    background-color: rgb(5, 34, 91);
+    background-color: darkcyan;
     padding: 30px;
     text-align: left;
     color: white;
