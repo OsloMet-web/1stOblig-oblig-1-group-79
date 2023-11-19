@@ -380,11 +380,13 @@ footer ul{
     .navbar-links{
         text-align: center;
         padding: 2% 2%;
-        background-color: rgb(31, 62, 104);
+        background-color:rgb(31, 62, 104);
+         
     }
     .navbar-links ul li{
         display: block;
         padding: 8px 0;
+ 
     }
     .navbar2-links{
         text-align: center;
