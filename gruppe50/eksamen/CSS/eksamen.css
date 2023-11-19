@@ -272,12 +272,16 @@ hr{
     max-width: 600px;
 }
 /* Under her er ekstra css for aktuelt-siden. */
+footer img{
+    
+}
 
 footer {
     background-color: darkcyan;
     padding: 30px;
     text-align: left;
     color: lightcyan;
+
 }
 
 footer h3{
