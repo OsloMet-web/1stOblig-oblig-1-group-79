@@ -103,41 +103,31 @@ article{
 h1{
     font-size: 1.5em;
     font-weight: 600;
-    line-height: 22px;
-    padding: 10px;
 }
 h2{
     font-size: 1.5em;
-    line-height: 22px;
-    padding: 10px;
 }
 h3 {
     font-size: 1.5em;
-    line-height: 22px;
-    padding: 10px;
   }
 h4{
     font-size: 1.5em;
-    line-height: 22px;
-    padding: 10px;
 }
 
 
 p{
-    color: black;
+    color: #777;
     font-size: 1em;
     font-weight: 300;
     line-height: 22px;
     padding: 10px;
-    width: 80%;
 }
 #indexTekst{
-    color: black;
+    color: #777;
     font-size: 0.8em;
     font-weight: 300;
     line-height: 22px;
     padding: 10px;
-    width:auto;
 }
 .campus{
     text-align: center;
@@ -161,32 +151,13 @@ p{
     justify-content: left;
     margin: auto;
     padding-top: 20px;
+
 }
-#bildeSide3{
-    width: 40%;
-    padding:10px;
-}
-#bildeSide3tekst{
-    color: black;
+.bildeSide3artikkel{
+    color: #777;
     font-size: 1em;
-    font-weight: 300;
     line-height: 22px;
-    padding-left: 25px;
-    width:auto;
-}
-
-.bildeSide3kilde{
-    color: black;
-    font-size: 0.8em;
-}
-
-#bildeSide4{
-    width: 70%;
-    padding-top:20px;
-}
-#bildeSide4kilde{
-    font-size: 0.8em;
-    color: black;
+    padding-left: 500px;
 }
 
 .campus-col{
@@ -297,25 +268,28 @@ hr{
     transition: 0.5s;
 }
 
+.Lighthouse{
+    max-width: 600px;
+}
 /* Under her er ekstra css for aktuelt-siden. */
 
 footer {
     background-color: darkcyan;
     padding: 30px;
     text-align: left;
-    color: white;
+    color: lightcyan;
 }
 
 footer h3{
     padding: 30px;
     text-align: left;
-    color:white;
+    color: cyan;
     text-align: left;
     padding: 10px;
 }
 
 footer p{
-    color: white;
+    color: lightcyan;
     font-size: 1em;
     padding: 10px;
     text-align: left;
@@ -326,7 +300,7 @@ footer ul{
     text-align: left;
     line-height: 1.7;
     margin-left: 50px;
-    color: white;
+    color: whitesmoke;
 }
 
 #footerIndex {
@@ -360,13 +334,26 @@ footer ul{
 }
 
 
+#bildeSide3{
+    width: 50%;
+}
+#bildeSide3tekst{
+    font-size: 0.8em;
+    color: navy;
+}
+#bildeSide4{
+    width: 100%;
+}
+#bildeSide4tekst{
+    font-size: 0.8em;
+    color: grey;
+}
+
   /* Under her er ekstra css for dummy-siden. */
 
 
 @media(max-width: 800px){
-    .dummyArticle{
-        color: black;
-    }
+    
     .nav{
         flex-direction: column;
         text-align: center;
