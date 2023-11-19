@@ -339,7 +339,11 @@ footer ul{
 }
 #bildeSide3tekst{
     font-size: 0.8em;
-    color: navy;
+    color: black;
+}
+.bildeSide3kilde{
+    font-size: 0.8em;
+    color: black;
 }
 #bildeSide4{
     width: 80%;
