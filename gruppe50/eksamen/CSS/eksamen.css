@@ -323,7 +323,7 @@ footer ul{
 }
 
 #footerIndex {
-    background-color: orange;
+    background-color: rgb(5, 9, 67);
     padding: 30px;
     text-align: left;
     color: lightcyan;
@@ -332,14 +332,14 @@ footer ul{
 #footerIndex h3{
     padding: 30pxs;
     text-align: left;
-    color: black;
+    color: rgb(255, 255, 255);
     text-align: left;
     padding: 5px;
     font-size: 1em;
 }
 
 #footerIndex p{
-    color: black;
+    color: rgb(255, 252, 252);
     font-size: 1em;
     padding: 10px;
     text-align: left;
