@@ -181,7 +181,8 @@ p{
 }
 
 #bildeSide4{
-    width: 100%;
+    width: 50%;
+    padding-top:20px;
 }
 #bildeSide4kilde{
     font-size: 0.8em;
