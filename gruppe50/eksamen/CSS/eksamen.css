@@ -280,8 +280,15 @@ footer {
     padding: 30px;
     text-align: left;
     color: lightcyan;
+}
+
+footer img{
+    top: 4%;
+    width: 100px;
+    right: 5%;
 
 }
+
 
 footer h3{
     padding: 30px;
