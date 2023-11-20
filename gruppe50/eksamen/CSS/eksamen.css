@@ -263,6 +263,8 @@ hr{
 
 .Lighthouse{
     display: block;
+    width: 60%;
+     margin: auto;
 }
 
 
@@ -302,6 +304,7 @@ div.desc{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 5px;
+    grid-auto-rows: minmax(100px, auto);
 }
 /* Under her er ekstra css for aktuelt-siden. */
 
