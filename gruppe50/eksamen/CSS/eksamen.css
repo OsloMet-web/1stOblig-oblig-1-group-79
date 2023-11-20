@@ -123,8 +123,8 @@ p{
     line-height: 22px;
     padding: 10px;
 }
-#indexTekst{
-    color:black;
+.campus p{
+    color: black;
     font-size: 0.8em;
     font-weight: 300;
     line-height: 22px;
