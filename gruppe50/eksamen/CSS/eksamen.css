@@ -137,22 +137,14 @@ p{
 }
 
 .row{
-    width: 75%;
+    width: 85%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     margin: auto;
     padding-top: 20px;
 }
-.row2{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: left;
-    margin: auto;
-    padding-top: 20px;
 
-}
 .bildeSide3artikkel{
     color: #777;
     font-size: 1em;
@@ -164,7 +156,7 @@ p{
    flex-basis: 43%;
    text-align: center;
    top: 5%;
-   border-radius: 7%;
+   border-radius: 40%;
    margin-bottom: 20px;
    color: black;
    position: relative;
@@ -198,8 +190,8 @@ p{
     left: 50%;
     transform: translateX(-50%);
     transition: 1s;
-    top: 25%;
-    max-width: 700px;
+    top: 15%;
+    max-width: 600px;
 }
 hr{
     background: black;
@@ -272,7 +264,6 @@ hr{
     width: 600px;
     padding: 10px;
     display: block;
-
 }
 
 
@@ -304,6 +295,11 @@ section.gallery img{
 section.desc{
     padding: 15px;
     text-align: center;
+}
+.foto-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
 }
 /* Under her er ekstra css for aktuelt-siden. */
 
