@@ -400,6 +400,8 @@ footer ul{
 }
 #bildeSide4{
     width: 80%;
+    height: 400px;
+    padding-left: 0px;
 }
 #bildeSide4kilde{
     font-size: 0.8em;
@@ -468,5 +470,6 @@ footer ul{
     .campus-col:hover .campus-description{
     bottom: 25% !important;
     }
+
 
 }
