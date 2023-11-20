@@ -217,6 +217,7 @@ hr{
 
 /* Under her er ekstra css for tilgjenglighet-siden. */
 
+
 .header{
     position: relative;
     margin: 0%;
@@ -261,38 +262,39 @@ hr{
 }
 
 .Lighthouse{
-    width: 600px;
-    padding: 10px;
     display: block;
 }
 
 
 .kontraster{
-    width: 600px;
-    padding: 10px;
     display: block;
-
+     width: 60%;
+     margin: auto;
 }
 .tilgjenglighet100{
-    width: 600px;
-    padding: 10px;
     display: block;
+     width: 60%;
+     margin: auto;
+
 }
 
-section.gallery{
+div.gallery{
     margin: 5px;
     border: 1px solid #ccc;
-    width: 180px;
     float: left;
-    position: relative;
+    width: 180px;
 }
 
-section.gallery img{
+div.gallery:hover{
+    border: 1px solid #777;
+}
+
+div.gallery img{
     width: 100%;
     height: auto;
 }
 
-section.desc{
+div.desc{
     padding: 15px;
     text-align: center;
 }
@@ -303,9 +305,7 @@ section.desc{
 }
 /* Under her er ekstra css for aktuelt-siden. */
 
-.course{
-    margin: 10%;
-}
+
 
 footer {
     background-color: rgb(5, 9, 67);
@@ -332,7 +332,7 @@ footer h2{
 }
 
 footer p{
-    color: lightcyan;
+    color: white;
     font-size: 1em;
     padding: 10px;
     text-align: left;
@@ -393,6 +393,8 @@ footer ul{
 }
 #bildeSide4{
     width: 80%;
+    height: 400px;
+    padding-left: 0px;
 }
 #bildeSide4kilde{
     font-size: 0.8em;
@@ -461,5 +463,6 @@ footer ul{
     .campus-col:hover .campus-description{
     bottom: 25% !important;
     }
+
 
 }
