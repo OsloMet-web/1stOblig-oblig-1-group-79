@@ -293,10 +293,7 @@ section.gallery{
     border: 1px solid #ccc;
     width: 180px;
     float: left;
-}
-
-section.gallery:hover{
-    border: 1px solid #777;
+    position: relative;
 }
 
 section.gallery img{
