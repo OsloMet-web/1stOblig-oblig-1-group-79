@@ -103,6 +103,7 @@ article{
 h1{
     font-size: 1.5em;
     font-weight: 600;
+    padding-left: 0%;
 }
 h2{
     font-size: 1.5em;
@@ -265,6 +266,7 @@ hr{
     display: block;
     width: 60%;
      margin: auto;
+
 }
 
 
