@@ -4,6 +4,8 @@
     font-family: Arial, Helvetica, sans-serif;
 
 }
+/* index.html siden */
+
 .header-index{
     min-height: 100vh;
     width:100%;
@@ -85,44 +87,13 @@
     background-color: transparent;
 }
 
+
 section{
     width: 80%;
-    margin: 80px auto;
-
-}
-
-article{
-    width: 100%;
-    margin: 30px auto;
-}
-#dummyArticle{
-    width: 80%;
-    margin: 80px auto;
-}
-
-h1{
-    font-size: 1.5em;
-    font-weight: 600;
-    padding-left: 0%;
-}
-h2{
-    font-size: 1.5em;
-}
-h3 {
-    font-size: 1.5em;
-  }
-h4{
-    font-size: 1.5em;
+    margin: 80px auto
 }
 
 
-p{
-    color: black;
-    font-size: 1em;
-    font-weight: 300;
-    line-height: 22px;
-    padding: 10px;
-}
 .campus p{
     color: black;
     font-size: 0.8em;
@@ -146,12 +117,6 @@ p{
     padding-top: 20px;
 }
 
-.bildeSide3artikkel{
-    color: #777;
-    font-size: 1em;
-    line-height: 22px;
-    padding-left: 500px;
-}
 
 .campus-col{
    flex-basis: 43%;
@@ -261,7 +226,13 @@ hr{
     width: 100%;
     transition: 0.5s;
 }
-
+.course p{
+    color: black;
+    font-size: 1em;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
 .Lighthouse{
     display: block;
     width: 60%;
@@ -406,8 +377,30 @@ footer ul{
     font-size: 0.8em;
     color: black;
 }
+.bildeSide3artikkel{
+    color: #777;
+    font-size: 1em;
+    line-height: 22px;
+    padding-left: 500px;
+}
 
   /* Under her er ekstra css for dummy-siden. */
+
+  #dummyArticle{
+    width: 80%;
+    margin: 80px auto;
+}
+article{
+    width: 100%;
+    margin: 30px auto;
+}
+article p{
+    color: black;
+    font-size: 1em;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
 
 
 @media(max-width: 800px){
@@ -421,7 +414,7 @@ footer ul{
     .navbar-links{
         text-align: center;
         padding: 2% 2%;
-        background-color:rgb(5, 9, 67);
+        background-color:rgb(31, 62, 104);
          
     }
     .navbar-links ul li{
@@ -440,6 +433,10 @@ footer ul{
         padding: 8px 0;
  
     }
+    .navbar2-links ul li a{
+        color:  white;
+    }
+
     .text-box{
         width: 80%;
         top: 30%;
