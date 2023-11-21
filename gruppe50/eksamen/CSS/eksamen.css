@@ -19,7 +19,7 @@
 }
 
 
-/* index.html siden */
+/* kode for index.html siden under */
 
 /*Fra denne kilden hentet vi navbar og bruk av layer
 /*https://www.youtube.com/watch?v=P6YQUAWJbwc*/
@@ -192,7 +192,7 @@ hr{
     bottom: 40%;
     opacity: 1;
 }
-footer img{
+footer img{                 /*referer til bilde av logo i footer i index-siden */
     width: 100px;
     position:sticky;
     top: 4%;
@@ -243,7 +243,7 @@ footer img{
     
 }
 
-footer {
+footer {                    /*den nederste delen i en nettside*/
     background-color: rgb(5, 9, 67);
     padding: 30px;
     text-align: left;
@@ -252,7 +252,7 @@ footer {
 
 
 
-footer h3{
+footer h3{                  /*kode for h3 og h4 innenfor footer-taggen */
     text-align: left;
     color: white;
     font-size: 1.1em;
@@ -264,7 +264,7 @@ footer h4{
     font-size: 1.1em;
 }
 
-footer p{
+footer p{                   /*kode for p-elementer innenfor footer-taggen*/
     color: white;
     font-size: 1em;
     padding:1%;
@@ -275,7 +275,7 @@ footer p{
 /* Under her er ekstra css for tilgjenglighet-siden. */
 
 
-.header{
+.header{                  
     position: relative;
     margin: 0%;
     width: 100%;
@@ -367,13 +367,13 @@ article{
     width: 60%;
     padding: 7%;
 }
-article p{
+article p{                  /*kode for p elementer innenfor taggen article */
     font-size: 1em;
     font-weight: 300;
     line-height: 22px;
     padding: 2%;
 }
-article h1{
+article h1{                 /*kode for heading innenfor taggen article*/
     line-height: 22px;
     padding: 2%;
 }
