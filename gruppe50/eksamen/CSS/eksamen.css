@@ -354,28 +354,8 @@ div.desc{
     font-size: 0.8em;
     color: black;
 }
-#bildeSide3tekst{
-    font-size: 1em;
-    color: black;
-    line-height: 25px;
-    font-style: italic;
-}
 
-#bildeSide4{
-    width: 80%;
-    height: 400px;
-    padding-left: 0px;
-}
-#bildeSide4kilde{
-    font-size: 0.8em;
-    color: black;
-}
-.bildeSide3artikkel{
-    color: #777;
-    font-size: 1em;
-    line-height: 22px;
-    padding-left: 500px;
-}
+
 
   /* Under her er ekstra css for dummy-siden. */
 
@@ -403,6 +383,16 @@ article h2, h3, h4{
     font-size: 1.3em;
     line-height: 22px;
     padding: 2%;
+}
+
+#bildeSide4{
+    width: 80%;
+    height: 400px;
+    padding-left: 0px;
+}
+#bildeSide4kilde{
+    font-size: 0.8em;
+    color: black;
 }
 
 @media(max-width: 800px){
