@@ -98,7 +98,7 @@
     padding: 2 20%;
 }
 
-/* dette er css når man tar musen over linkene i navigasjonsbaren*/
+/* dette er når man tar musen over linkene i navigasjonsbaren, det kommer en strek */
 .navbar-links ul li::after{
     content: "";
     width: 0%;
@@ -113,13 +113,14 @@
     transition: 0.5s;
 }
 
-
-
 section{
     width: 80%;
     margin: 40px auto
 }
 
+section p{
+    
+}
 .campus p{
     color: black;
     font-size: 0.8em;
@@ -193,10 +194,7 @@ hr{
 .campus-description h3{
     font-size: 20px;
 }
-.campus-col:hover .campus-description{
-    bottom: 40%;
-    opacity: 1;
-}
+
 footer img{                 /*referer til bilde av logo i footer i index-siden */
     width: 100px;
     position:sticky;
