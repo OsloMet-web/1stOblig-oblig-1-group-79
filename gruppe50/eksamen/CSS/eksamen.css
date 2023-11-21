@@ -353,13 +353,13 @@ div.desc{
     justify-content: space-around;
     margin: auto;
     padding-top: 4%;
-    padding-bottom: 2%;
 }
 
 .course2{
     text-align: left;
     margin: auto;
-    width: 85%;
+    width: 60%;
+    padding-bottom: 4%;
     display: flex;
 }
 .proposed-law{ 
