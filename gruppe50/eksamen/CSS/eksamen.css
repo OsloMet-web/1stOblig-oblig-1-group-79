@@ -134,16 +134,6 @@ section{
     margin: auto;
     padding-top: 20px;
 }
-.row2{
-    width: 85%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin: auto;
-    padding-top: 20px;
-    padding-bottom: 50px;
-}
-
 
 
 .campus-col{
@@ -262,18 +252,22 @@ footer {
 
 
 
-footer h2{
+footer h3{
     text-align: left;
     color: white;
+    font-size: 1.1em;
+}
+
+footer h4{
     text-align: left;
-    padding: 5px;
-    font-size: 1em;
+    color: white;
+    font-size: 1.1em;
 }
 
 footer p{
     color: white;
     font-size: 1em;
-    padding: 10px;
+    padding:1%;
     text-align: left;
 }
 
@@ -338,6 +332,15 @@ div.desc{
     grid-auto-rows: minmax(100px, auto);
 }
 /* Under her er ekstra css for aktuelt-siden. */
+.row2{
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+    padding-top: 4%;
+    padding-bottom: 2%;
+}
 
 .proposed-law ul{
     font-size: 1em;
@@ -353,35 +356,11 @@ div.desc{
     font-size: 0.8em;
     color: black;
 }
-#bildeSide3tekst{
-    font-size: 1em;
-    color: black;
-    line-height: 25px;
-    font-style: italic;
-}
 
-#bildeSide4{
-    width: 80%;
-    height: 400px;
-    padding-left: 0px;
-}
-#bildeSide4kilde{
-    font-size: 0.8em;
-    color: black;
-}
-.bildeSide3artikkel{
-    color: #777;
-    font-size: 1em;
-    line-height: 22px;
-    padding-left: 500px;
-}
+
 
   /* Under her er ekstra css for dummy-siden. */
 
-  #dummyArticle{
-    width: 80%;
-    margin: 80px auto;
-}
 article{
     text-align: left;
     margin: auto;
@@ -402,6 +381,15 @@ article h2, h3, h4{
     font-size: 1.3em;
     line-height: 22px;
     padding: 2%;
+}
+
+#bildeSide4{
+    width: 80%;
+    height: auto;
+}
+#bildeSide4kilde{
+    font-size: 0.8em;
+    color: black;
 }
 
 @media(max-width: 800px){
