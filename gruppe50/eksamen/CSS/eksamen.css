@@ -116,6 +116,16 @@ section{
     margin: auto;
     padding-top: 20px;
 }
+.row2{
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
 
 
 .campus-col{
@@ -375,7 +385,9 @@ footer ul{
 
 
 #bildeSide3{
-    width: 80%;
+    width: 100%;
+    font-size: 0.8em;
+    color: black;
 }
 #bildeSide3tekst{
     font-size: 0.8em;
@@ -383,10 +395,7 @@ footer ul{
     line-height: 25px;
     padding-left: 50px;
 }
-.bildeSide3kilde{
-    font-size: 0.8em;
-    color: black;
-}
+
 #bildeSide4{
     width: 80%;
     height: 400px;
