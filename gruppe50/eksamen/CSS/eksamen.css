@@ -239,7 +239,12 @@ hr{
      margin: auto;
 
 }
-
+.course{
+    text-align: left;
+    margin: auto;
+    width: 50%;
+    padding: 7%;
+}
 .kontraster{
     display: block;
      width: 60%;
