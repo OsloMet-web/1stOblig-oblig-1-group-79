@@ -1,3 +1,5 @@
+
+
 /* Dette er generelt css for alle sidene*/
 *{
     margin: 0;
@@ -5,10 +7,26 @@
     font-family: Arial, Helvetica, sans-serif;
 
 }
-
+.course h1{
+    line-height: 22px;
+    padding: 2%;
+    
+}
+.course h2{
+    font-size: 1.3em;
+    line-height: 22px;
+    padding: 2%;
+}
 
 
 /* index.html siden */
+
+/*Fra denne kilden hentet vi navbar og bruk av layer
+/*https://www.youtube.com/watch?v=P6YQUAWJbwc*/
+
+
+
+
 
 .header-index{
     min-height: 100vh;
@@ -321,17 +339,6 @@ div.desc{
     grid-gap: 2px;
     grid-auto-rows: minmax(100px, auto);
 }
-
-.course h1{
-    line-height: 22px;
-    padding: 2%;
-    
-}
-.course h2, h3{
-    font-size: 1.3em;
-    line-height: 22px;
-    padding: 2%;
-}
 /* Under her er ekstra css for aktuelt-siden. */
 
 .proposed-law ul{
@@ -340,8 +347,8 @@ div.desc{
     line-height: 1.5em;
     padding: 2%;
     margin: 2%;
-}
 
+}
 
 #bildeSide3{
     width: 112%;
@@ -378,29 +385,18 @@ div.desc{
     margin: 80px auto;
 }
 article{
-    text-align: left;
-    margin: auto;
-    width: 60%;
-    padding: 7%;
+    width: 100%;
+    margin: 30px auto;
 }
 article p{
     color: black;
     font-size: 1em;
     font-weight: 300;
     line-height: 22px;
-    padding: 2%;
+    padding: 10px;
 }
 
-article h1{
-    line-height: 22px;
-    padding: 2%;
-    
-}
-article h2, h3, h4{
-    font-size: 1.3em;
-    line-height: 22px;
-    padding: 2%;
-}
+
 @media(max-width: 800px){
     
     .nav{
