@@ -188,6 +188,8 @@ hr{
     position: relative;
     margin: 0%;
     width: 100%;
+   
+    
 }
 
 .navbar2-links ul li{
@@ -220,45 +222,61 @@ hr{
     background: #1e167b;
     display: block;
     margin: auto;
+    
 
 }
 .navbar2-links ul li:hover::after{
     width: 100%;
     transition: 0.5s;
+
+}
+.course{
+    text-align: left;
+    margin: auto;
+    width: 60%;
+    padding: 7%;
 }
 .course p{
     color: black;
     font-size: 1em;
     font-weight: 300;
     line-height: 22px;
-    padding: 10px;
+    padding: 2%;
 }
 .Lighthouse{
     display: block;
     width: 60%;
+<<<<<<< HEAD
      margin: auto;
+    
 
 }
 .course{
     text-align: left;
+=======
+>>>>>>> 444b61d8f5f1c1e9dc8437f5ce6d7d32bf1c4a2f
     margin: auto;
-    width: 50%;
-    padding: 7%;
 }
+
 .kontraster{
     display: block;
+<<<<<<< HEAD
      width: 60%;
      margin: auto;
+     
+=======
+    width: 60%;
+    margin: auto;
+>>>>>>> 444b61d8f5f1c1e9dc8437f5ce6d7d32bf1c4a2f
 }
 .tilgjenglighet100{
     display: block;
-     width: 60%;
-     margin: auto;
-
+    width: 60%;
+    margin: auto;
 }
 
 div.gallery{
-    margin: 5px;
+    margin: 2%;
     float: left;
     width: 180px;
 }
@@ -270,7 +288,6 @@ div.gallery img{
 }
 
 div.desc{
-    margin: 0%;
     width: 180px;
     text-align: center;
     font-size: 14px;
