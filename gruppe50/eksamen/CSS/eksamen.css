@@ -4,6 +4,11 @@
     font-family: Arial, Helvetica, sans-serif;
 
 }
+.course h1{
+    line-height: 22px;
+    padding: 2%;
+}
+
 /* index.html siden */
 
 .header-index{
@@ -183,18 +188,17 @@ hr{
     bottom: 40%;
     opacity: 1;
 }
-
-
-
-
-/* Under her er ekstra css for tilgjenglighet-siden. */
-
-
-.header{
-    position: relative;
-    margin: 0%;
-    width: 100%;
+footer img{
+    width: 100px;
+    position:sticky;
+    top: 4%;
+    right:auto;
+    height: auto;
 }
+
+
+/* navigasjonsbar og footer er det samme for tilgjenlighet, aktuelt og dummy-sidene*/
+
 
 .navbar2-links ul li{
     list-style: none;
@@ -232,8 +236,42 @@ hr{
 .navbar2-links ul li:hover::after{
     width: 100%;
     transition: 0.5s;
-
 }
+
+footer {
+    background-color: rgb(5, 9, 67);
+    padding: 30px;
+    text-align: left;
+    color: white;
+}
+
+
+
+footer h2{
+    text-align: left;
+    color: white;
+    text-align: left;
+    padding: 5px;
+    font-size: 1em;
+}
+
+footer p{
+    color: white;
+    font-size: 1em;
+    padding: 10px;
+    text-align: left;
+}
+
+
+/* Under her er ekstra css for tilgjenglighet-siden. */
+
+
+.header{
+    position: relative;
+    margin: 0%;
+    width: 100%;
+}
+
 .course{
     text-align: left;
     margin: auto;
@@ -247,10 +285,6 @@ hr{
     padding: 2%;
 }
 
-.course h1, h2{
-    line-height: 22px;
-    padding: 2%;
-}
 
 .Lighthouse, .kontraster{
     display: block;
@@ -291,47 +325,6 @@ div.desc{
 /* Under her er ekstra css for aktuelt-siden. */
 
 
-
-footer {
-    background-color: rgb(5, 9, 67);
-    padding: 30px;
-    text-align: left;
-    color: white;
-}
-
-
-footer img{
-    width: 100px;
-    position:sticky;
-    top: 4%;
-    right:auto;
-    height: auto;
-}
-
-
-footer h2{
-    text-align: left;
-    color: white;
-    text-align: left;
-    padding: 5px;
-    font-size: 1em;
-}
-
-footer p{
-    color: white;
-    font-size: 1em;
-    padding: 10px;
-    text-align: left;
-}
-footer ul{
-    font-size: 1em;
-    padding: 10px;
-    text-align: left;
-    line-height: 1.7;
-    margin-left: 50px;
-    color: whitesmoke;
-}
-
 #footerIndex {
     background-color: rgb(5, 9, 67);
     padding: 30px;
@@ -362,7 +355,6 @@ footer ul{
     margin-left: 50px;
     color: black;
 }
-
 
 #bildeSide3{
     width: 80%;
