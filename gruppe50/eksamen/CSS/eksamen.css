@@ -385,17 +385,26 @@ div.desc{
     margin: 80px auto;
 }
 article{
-    width: 100%;
-    margin: 30px auto;
+    text-align: left;
+    margin: auto;
+    width: 60%;
+    padding: 7%;
 }
 article p{
-    color: black;
     font-size: 1em;
     font-weight: 300;
     line-height: 22px;
-    padding: 10px;
+    padding: 2%;
 }
-
+article h1{
+    line-height: 22px;
+    padding: 2%;
+}
+article h2, h3, h4{
+    font-size: 1.3em;
+    line-height: 22px;
+    padding: 2%;
+}
 
 @media(max-width: 800px){
     
