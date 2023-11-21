@@ -278,11 +278,6 @@ footer p{                   /*kode for p-elementer innenfor footer-taggen*/
 /* Under her er ekstra css for tilgjenglighet-siden. */
 
 
-.header{                  
-    position: relative;
-    margin: 0%;
-    width: 100%;
-}
 
 .course{
     text-align: left;
