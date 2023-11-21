@@ -267,13 +267,15 @@ div.gallery img{
 }
 
 div.desc{
-    padding: 15px;
-    text-align: center;
+    margin: 5px;
+    width: 180px;
+    text-align: left;
+    font-size: 14px;
 }
 .foto-grid{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 5px;
+    grid-gap: 2px;
     grid-auto-rows: minmax(100px, auto);
 }
 /* Under her er ekstra css for aktuelt-siden. */
@@ -462,6 +464,9 @@ article p{
     }
     .campus-col:hover .campus-description{
     bottom: 25% !important;
+    }
+    .foto-grid{
+      flex: 50%;
     }
 
 
