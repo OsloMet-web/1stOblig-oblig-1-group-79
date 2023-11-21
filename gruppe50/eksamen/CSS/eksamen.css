@@ -86,14 +86,10 @@
     color: white;
     background-color: transparent;
 }
-
-
 section{
     width: 80%;
     margin: 80px auto
 }
-
-
 .campus p{
     color: black;
     font-size: 0.8em;
@@ -198,8 +194,6 @@ hr{
     position: relative;
     margin: 0%;
     width: 100%;
-   
-    
 }
 
 .navbar2-links ul li{
@@ -246,38 +240,25 @@ hr{
     width: 60%;
     padding: 7%;
 }
-.course{
-    text-align: left;
-    margin: auto;
-    width: 60%;
-    padding: 7%;
-}
 .course p{
-    color: black;
     font-size: 1em;
     font-weight: 300;
     line-height: 22px;
     padding: 2%;
 }
-.Lighthouse{
-    display: block;
-    width: 60%;
-     margin: auto;
+
+.course h1, h2{
+    line-height: 22px;
+    padding: 2%;
 }
-.course{
-    text-align: left;
+
+.Lighthouse, .kontraster{
+    display: block;
+    width: 96%;
     margin: auto;
 }
 
-.kontraster{
-    display: block;
-     width: 60%;
-     margin: auto;
-    width: 60%;
-    margin: auto;
-    width: 60%;
-    margin: auto;
-}
+
 .tilgjenglighet100{
     display: block;
     width: 60%;
@@ -385,13 +366,15 @@ footer ul{
 
 #bildeSide3{
     width: 112%;
+    width: 80%;
     font-size: 0.8em;
     color: black;
 }
 #bildeSide3tekst{
-    font-size: 0.8em;
+    font-size: 1em;
     color: black;
     line-height: 25px;
+    font-style: italic;
 }
 
 #bildeSide4{
