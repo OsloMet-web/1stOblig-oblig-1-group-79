@@ -5,16 +5,7 @@
     font-family: Arial, Helvetica, sans-serif;
 
 }
-.course h1{
-    line-height: 22px;
-    padding: 2%;
-    
-}
-.course h2{
-    font-size: 1.3em;
-    line-height: 22px;
-    padding: 2%;
-}
+
 
 
 /* index.html siden */
@@ -330,6 +321,22 @@ div.desc{
     grid-gap: 2px;
     grid-auto-rows: minmax(100px, auto);
 }
+
+.course h1{
+    line-height: 22px;
+    padding: 2%;
+    
+}
+.course h2{
+    font-size: 1.3em;
+    line-height: 22px;
+    padding: 2%;
+}
+.course h3{
+    font-size: 1.3em;
+    line-height: 22px;
+    padding: 2%;
+}
 /* Under her er ekstra css for aktuelt-siden. */
 
 .proposed-law ul{
@@ -376,8 +383,10 @@ div.desc{
     margin: 80px auto;
 }
 article{
-    width: 100%;
-    margin: 30px auto;
+    text-align: left;
+    margin: auto;
+    width: 60%;
+    padding: 7%;
 }
 article p{
     color: black;
