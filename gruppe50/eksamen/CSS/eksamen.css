@@ -5,30 +5,16 @@
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-
 }
-.course h1{
-    line-height: 22px;
-    padding: 2%;
-    
-}
-.course h2{
-    font-size: 1.3em;
-    line-height: 22px;
-    padding: 2%;
-   
-}
-
 
 /* kode for index.html siden under */
 
 /*Fra denne kilden hentet vi navbar og bruk av layer
-/*https://www.youtube.com/watch?v=P6YQUAWJbwc*/
+/**https://www.youtube.com/watch?v=P6YQUAWJbwc**/
 
 
 
-/* header-index er det store bilde på hjemmesiden*/
-
+/* header-index CSS for det store bildet*/
 .header-index{
     min-height: 100vh;
     width:100%;
@@ -98,7 +84,7 @@
     padding: 2 20%;
 }
 
-/* dette er når man tar musen over linkene i navigasjonsbaren, det kommer en strek */
+/* dette er css når man tar musen over linkene i navigasjonsbaren*/
 .navbar-links ul li::after{
     content: "";
     width: 0%;
@@ -113,14 +99,14 @@
     transition: 0.5s;
 }
 
+
+/* Fikset mellomrommet mellom bildet og overskiften "Våre studiestader"*/
 section{
     width: 80%;
     margin: 40px auto
 }
 
-section p{
-    
-}
+/*Dette er teskten mellom bildene*/
 .campus p{
     color: black;
     font-size: 0.8em;
@@ -128,12 +114,15 @@ section p{
     line-height: 22px;
     padding: 10px;
 }
+
+
 .campus{
     text-align: center;
     color: black;
     font-size: 20px;
 }
 
+/*for begge boksene*/
 .row{
     width: 85%;
     display: flex;
@@ -153,12 +142,13 @@ section p{
    color: black;
    position: relative;
 }
-
+/*Bilder til boksene*/
 .campus-col img{
     width: 100%;
     border-radius: 7px;
 
 }
+/*teksten som kommer, når man tar musen over boksene*/
 .layer{
     width: 100%;
     height: 100%;
@@ -179,7 +169,7 @@ section p{
     opacity: 1;
 
 }
-
+/*CSS til teksten i boksene*/
 hr{
     background: black;
     height: 2px;
@@ -187,6 +177,7 @@ hr{
     margin: 15px auto;
     width: 60%;
 }
+
 .campus-description p{
     font-size: 14px;
     color: black;
@@ -194,8 +185,13 @@ hr{
 .campus-description h3{
     font-size: 20px;
 }
+.campus-col:hover .campus-description{
+    bottom: 40%;
+    opacity: 1;
+}
 
-footer img{                 /*referer til bilde av logo i footer i index-siden */
+/*referer til bilde av logo i footer i index-siden */
+footer img{              
     width: 100px;
     position:sticky;
     top: 4%;
@@ -244,9 +240,10 @@ footer img{                 /*referer til bilde av logo i footer i index-siden *
     transition: 0.5s;
     
 }
-/*footer har samme css på alle*/
 
-footer {                    /*den nederste delen i en nettside*/
+/*footer har samme css på alle*/
+/*den nederste delen i en nettside*/
+footer {                   
     background-color: rgb(5, 9, 67);
     padding: 30px;
     text-align: left;
@@ -254,8 +251,8 @@ footer {                    /*den nederste delen i en nettside*/
 }
 
 
-
-footer h3{                  /*kode for h3 og h4 innenfor footer-taggen */
+/*kode for h3 og h4 innenfor footer-taggen */
+footer h3{                  
     text-align: left;
     color: white;
     font-size: 1.1em;
@@ -267,7 +264,8 @@ footer h4{
     font-size: 1.1em;
 }
 
-footer p{                   /*kode for p-elementer innenfor footer-taggen*/
+/*kode for p-elementer innenfor footer-taggen*/
+footer p{                   
     color: white;
     font-size: 1em;
     padding:1%;
@@ -275,10 +273,9 @@ footer p{                   /*kode for p-elementer innenfor footer-taggen*/
 }
 
 
-/* Under her er ekstra css for tilgjenglighet-siden. */
 
 
-
+/*Det er CSS for tilgjengelighet og aktuelt siden.*/
 .course{
     text-align: left;
     margin: auto;
@@ -292,7 +289,21 @@ footer p{                   /*kode for p-elementer innenfor footer-taggen*/
     padding: 2%;
 }
 
+.course h1{
+    line-height: 22px;
+    padding: 2%;
+    
+}
+.course h2{
+    font-size: 1.3em;
+    line-height: 22px;
+    padding: 2%;
+   
+}
 
+/* Under her er ekstra css for tilgjenglighet-siden. */
+
+/*CSS for bildene*/
 .Lighthouse, .kontraster{
     display: block;
     width: 96%;
@@ -306,6 +317,7 @@ footer p{                   /*kode for p-elementer innenfor footer-taggen*/
     margin: auto;
 }
 
+/*Det er bildekolonnene*/
 div.gallery{
     margin: 2%;
     float: left;
@@ -329,7 +341,10 @@ div.desc{
     grid-gap: 2px;
     grid-auto-rows: minmax(100px, auto);
 }
+
 /* Under her er ekstra css for aktuelt-siden. */
+
+/*Det er tesksten under AI bildet*/
 .row2{
     width: 85%;
     display: flex;
@@ -340,21 +355,20 @@ div.desc{
     padding-bottom: 2%;
 }
 
-.proposed-law ul{
-    font-size: 1em;
-    font-weight: 300;
-    line-height: 1.5em;
-    padding: 2%;
-    margin: 2%;
-
-}
-
 #bildeSide3{
     width: 112%;
     font-size: 0.8em;
     color: black;
 }
 
+/* Teksten til "potensielt negative sider ved den foreslåtte loven"*/
+.proposed-law ul{
+    font-size: 1em;
+    font-weight: 300;
+    line-height: 1.5em;
+    padding: 2%;
+    margin: 2%;
+}
 
 
   /* Under her er ekstra css for dummy-siden. */
@@ -365,16 +379,21 @@ article{
     width: 60%;
     padding: 7%;
 }
-article p{                  /*kode for p elementer innenfor taggen article */
+
+ /*kode for p elementer innenfor taggen article */
+article p{                 
     font-size: 1em;
     font-weight: 300;
     line-height: 22px;
     padding: 2%;
 }
-article h1{                 /*kode for heading innenfor taggen article*/
+
+ /*kode for heading innenfor taggen article*/
+article h1{                
     line-height: 22px;
     padding: 2%;
 }
+
 article h2, h3, h4{
     font-size: 1.3em;
     line-height: 22px;
