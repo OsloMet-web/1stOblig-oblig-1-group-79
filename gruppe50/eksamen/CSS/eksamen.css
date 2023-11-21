@@ -254,18 +254,16 @@ footer {
 
 
 
-footer h2{
+footer h3{
     text-align: left;
     color: white;
-    text-align: left;
-    padding: 5px;
-    font-size: 1em;
+    font-size: 1.1em;
 }
 
 footer p{
     color: white;
     font-size: 1em;
-    padding: 10px;
+    padding:1%;
     text-align: left;
 }
 
