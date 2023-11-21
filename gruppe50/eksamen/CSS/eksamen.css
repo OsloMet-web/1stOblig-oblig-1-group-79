@@ -1,3 +1,4 @@
+/* Dette er generelt css for alle sidene*/
 *{
     margin: 0;
     padding: 0;
@@ -13,7 +14,6 @@
     font-size: 1.3em;
     line-height: 22px;
     padding: 2%;
-    
 }
 
 
@@ -332,36 +332,13 @@ div.desc{
 }
 /* Under her er ekstra css for aktuelt-siden. */
 
-
-#footerIndex {
-    background-color: rgb(5, 9, 67);
-    padding: 30px;
-    text-align: left;
-    color: lightcyan;
-}
-
-#footerIndex h3{
-    padding: 30pxs;
-    text-align: left;
-    color: rgb(255, 255, 255);
-    text-align: left;
-    padding: 5px;
+.proposed-law ul{
     font-size: 1em;
-}
+    font-weight: 300;
+    line-height: 1.5em;
+    padding: 2%;
+    margin: 2%;
 
-#footerIndex p{
-    color: rgb(255, 252, 252);
-    font-size: 1em;
-    padding: 10px;
-    text-align: left;
-}
-#footerIndex ul{
-    font-size: 1em;
-    padding: 10px;
-    text-align: left;
-    line-height: 1.7;
-    margin-left: 50px;
-    color: rgb(4, 4, 4);
 }
 
 #bildeSide3{
