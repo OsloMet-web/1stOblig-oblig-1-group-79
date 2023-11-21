@@ -340,6 +340,7 @@ div.desc{
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 2px;
     grid-auto-rows: minmax(100px, auto);
+
 }
 
 /* Under her er ekstra css for aktuelt-siden. */
@@ -444,13 +445,15 @@ article h2, h3, h4{
         color:  white;
     }
 
+    .logo{
+        display: none;
+    }
+
     .text-box{
         width: 80%;
         top: 30%;
     }
-    .logo{
-        display: none;
-    }
+    
     .text-box h1{
         font-size: 30px;
         letter-spacing: 10px;
@@ -474,7 +477,7 @@ article h2, h3, h4{
     bottom: 25% !important;
     }
     .foto-grid{
-      flex: 50%;
+        grid-template-columns: 1fr;
     }
 
 
