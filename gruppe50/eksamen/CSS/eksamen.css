@@ -379,12 +379,12 @@ footer ul{
     text-align: left;
     line-height: 1.7;
     margin-left: 50px;
-    color: black;
+    color: rgb(4, 4, 4);
 }
 
 
 #bildeSide3{
-    width: 100%;
+    width: 112%;
     font-size: 0.8em;
     color: black;
 }
