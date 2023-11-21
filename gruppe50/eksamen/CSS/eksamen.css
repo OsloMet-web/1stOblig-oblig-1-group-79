@@ -170,22 +170,19 @@ section{
     cursor: pointer;
     background: linear-gradient(rgba(231, 125, 49, 0.824), #cf7035);
     opacity: 0;
-    transition: 1s;
     overflow: hidden;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 1s;
+    max-width: 600px;
 }
 .campus-col:hover .layer{
     opacity: 1;
 
 }
 .campus-description{
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    transition: 1s;
-    top: 15%;
-    max-width: 600px;
+   
 }
 hr{
     background: black;
@@ -253,6 +250,7 @@ footer img{
 .navbar2-links ul li:hover::after{
     width: 100%;
     transition: 0.5s;
+    
 }
 
 footer {
