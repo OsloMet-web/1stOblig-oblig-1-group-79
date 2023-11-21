@@ -226,6 +226,12 @@ hr{
     width: 100%;
     transition: 0.5s;
 }
+.course{
+    text-align: left;
+    margin: auto;
+    width: 60%;
+    padding: 7%;
+}
 .course p{
     color: black;
     font-size: 1em;
@@ -236,29 +242,23 @@ hr{
 .Lighthouse{
     display: block;
     width: 60%;
-     margin: auto;
-
-}
-.course{
-    text-align: left;
     margin: auto;
-    width: 50%;
-    padding: 7%;
+    padding: 5%;
 }
+
 .kontraster{
     display: block;
-     width: 60%;
-     margin: auto;
+    width: 60%;
+    margin: auto;
 }
 .tilgjenglighet100{
     display: block;
-     width: 60%;
-     margin: auto;
-
+    width: 60%;
+    margin: auto;
 }
 
 div.gallery{
-    margin: 5px;
+    margin: 2%;
     float: left;
     width: 180px;
 }
@@ -270,7 +270,6 @@ div.gallery img{
 }
 
 div.desc{
-    margin: 0%;
     width: 180px;
     text-align: center;
     font-size: 14px;
