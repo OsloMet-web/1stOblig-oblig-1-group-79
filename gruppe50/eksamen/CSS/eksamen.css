@@ -355,6 +355,13 @@ div.desc{
     padding-top: 4%;
     padding-bottom: 2%;
 }
+.proposed-law{ 
+    width: 100%;
+    padding-left: 0%;
+}
+.proposed-law h2{
+    width: 20%;
+}
 
 .proposed-law ul{
     font-size: 1em;
