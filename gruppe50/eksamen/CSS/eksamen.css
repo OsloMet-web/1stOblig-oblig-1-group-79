@@ -363,10 +363,6 @@ div.desc{
 
   /* Under her er ekstra css for dummy-siden. */
 
-  #dummyArticle{
-    width: 80%;
-    margin: 80px auto;
-}
 article{
     text-align: left;
     margin: auto;
