@@ -20,7 +20,7 @@
 }
 
 
-/* index.html siden */
+/* kode for index.html siden under */
 
 /*Fra denne kilden hentet vi navbar og bruk av layer
 /*https://www.youtube.com/watch?v=P6YQUAWJbwc*/
@@ -161,22 +161,19 @@ section{
     cursor: pointer;
     background: linear-gradient(rgba(231, 125, 49, 0.824), #cf7035);
     opacity: 0;
-    transition: 1s;
     overflow: hidden;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 1s;
+    max-width: 600px;
 }
 .campus-col:hover .layer{
     opacity: 1;
 
 }
 .campus-description{
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    transition: 1s;
-    top: 15%;
-    max-width: 600px;
+   
 }
 hr{
     background: black;
@@ -196,7 +193,7 @@ hr{
     bottom: 40%;
     opacity: 1;
 }
-footer img{
+footer img{                 /*referer til bilde av logo i footer i index-siden */
     width: 100px;
     position:sticky;
     top: 4%;
@@ -244,9 +241,10 @@ footer img{
 .navbar2-links ul li:hover::after{
     width: 100%;
     transition: 0.5s;
+    
 }
 
-footer {
+footer {                    /*den nederste delen i en nettside*/
     background-color: rgb(5, 9, 67);
     padding: 30px;
     text-align: left;
@@ -255,7 +253,7 @@ footer {
 
 
 
-footer h3{
+footer h3{                  /*kode for h3 og h4 innenfor footer-taggen */
     text-align: left;
     color: white;
     font-size: 1.1em;
@@ -267,7 +265,7 @@ footer h4{
     font-size: 1.1em;
 }
 
-footer p{
+footer p{                   /*kode for p-elementer innenfor footer-taggen*/
     color: white;
     font-size: 1em;
     padding:1%;
@@ -278,7 +276,7 @@ footer p{
 /* Under her er ekstra css for tilgjenglighet-siden. */
 
 
-.header{
+.header{                  
     position: relative;
     margin: 0%;
     width: 100%;
@@ -364,23 +362,19 @@ div.desc{
 
   /* Under her er ekstra css for dummy-siden. */
 
-  #dummyArticle{
-    width: 80%;
-    margin: 80px auto;
-}
 article{
     text-align: left;
     margin: auto;
     width: 60%;
     padding: 7%;
 }
-article p{
+article p{                  /*kode for p elementer innenfor taggen article */
     font-size: 1em;
     font-weight: 300;
     line-height: 22px;
     padding: 2%;
 }
-article h1{
+article h1{                 /*kode for heading innenfor taggen article*/
     line-height: 22px;
     padding: 2%;
 }
@@ -393,6 +387,7 @@ article h2, h3, h4{
 #bildeSide4{
     width: 80%;
     height: auto;
+    padding:2%;
 }
 #bildeSide4kilde{
     font-size: 0.8em;
