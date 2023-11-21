@@ -387,8 +387,7 @@ article h2, h3, h4{
 
 #bildeSide4{
     width: 80%;
-    height: 400px;
-    padding-left: 0px;
+    height: auto;
 }
 #bildeSide4kilde{
     font-size: 0.8em;
