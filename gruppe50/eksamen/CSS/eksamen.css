@@ -134,16 +134,6 @@ section{
     margin: auto;
     padding-top: 20px;
 }
-.row2{
-    width: 85%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin: auto;
-    padding-top: 20px;
-    padding-bottom: 50px;
-}
-
 
 
 .campus-col{
@@ -340,6 +330,15 @@ div.desc{
     grid-auto-rows: minmax(100px, auto);
 }
 /* Under her er ekstra css for aktuelt-siden. */
+.row2{
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
 
 .proposed-law ul{
     font-size: 1em;
