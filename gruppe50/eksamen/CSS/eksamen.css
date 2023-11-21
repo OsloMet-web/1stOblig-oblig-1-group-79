@@ -237,13 +237,12 @@ hr{
     font-size: 1em;
     font-weight: 300;
     line-height: 22px;
-    padding: 10px;
+    padding: 2%;
 }
 .Lighthouse{
     display: block;
     width: 60%;
     margin: auto;
-    padding: 5%;
 }
 
 .kontraster{
