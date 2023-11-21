@@ -389,9 +389,10 @@ footer ul{
     color: black;
 }
 #bildeSide3tekst{
-    font-size: 0.8em;
+    font-size: 1em;
     color: black;
     line-height: 25px;
+    font-style: italic;
 }
 
 #bildeSide4{
