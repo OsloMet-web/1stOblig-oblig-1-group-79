@@ -360,7 +360,7 @@ div.desc{
 /*Det her er avsnittene som er skrevet ved siden av hverandre helt nederst*/
 .proposed-law, .proposed-law2{ 
     width: 100%;
-    padding: 10px;
+    padding: 1%;
     margin-bottom: 10%;
 }
 
@@ -368,7 +368,7 @@ div.desc{
     font-size: 1em;
     font-weight: 300;
     line-height: 1.5em;
-    margin: 2%;
+    margin: auto;
 }
 
 /*Det her er klasse for de to avsnittene ovenfor, her ble display-flex brukt 
