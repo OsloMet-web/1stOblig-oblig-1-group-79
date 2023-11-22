@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Hvordan vi har brukt LLighthouse.">
+        <title> Oslomet Storbyuniversitetet </title>
+        <link rel="stylesheet" href="../css/eksamen.css">
+    </head>
+    <body>
+           
+
+        <!--logoen øverst til venstre-->
+                <img src="../img/kongeblå-logo.jpg"  class="logo" alt="blå logo">
+        
+    
+        <header class="navbar2-links">  <!--navigasjonsbar-->
+            <nav>
+            <ul>
+                <li><a href="../index.html">HJEM</a></li>
+                <li><a href="../secondary/tilgjenlighet.html">TILGJENLIGHET</a></li>
+                <li><a href="../secondary/aktuelt.html">AKTUELT</a></li>
+                <li><a href="../secondary/dummy.html">DUMMY</a></li>
+            </ul>
+        </header>
+            </nav>
+        <section class="course">
+            <h1>Tilgjenglighet - Lighthouse</h1>
+            <p>Å teste om nettsiden funker bra for alle er viktig når man lager en nettside. Vi brukte verktøyet Lighthouse for å teste nettsiden.
+                Lighthouse skanner nettsiden for å finne ting som kan gjøre nettsiden enklere å bruke. Da vurderer testverktøyet nettsidens ytelse "performance",
+                tilgjenlighet "accessibility", beste praksis "best practices" og SEO.
+                Det kan for eksempel være om bilder, at vi ikke har tekstbeskrivelse eller om tekst og bakgrunnsfarger ikke har nok kontraster.
+                Om det er lite kontraster kan det være vanskelig for en å lese nettsiden. Ved gjevnlig bruk av lighthouse klarer man å forhindre mye feil på siden, og rette feilene våres tidlig.
+                Dette bidrar til å gjøre nettsiden mer brukervennlig for alle.
+            </p>
+            <h2>Hvordan finner man Lighthouse?</h2>
+
+            <!--conteiner som holder alle bildene i rutenett-->
+            <div class="foto-grid">
+                
+                <!--seksjon som inneholder bilde og en beskrivelse -->
+                <section class="gallery">
+                    <img src="../img/inspiser.png" alt="inspiser" width="210" height="200"><!--bilde-->
+                <div class="desc">1. Høyreklikk på siden, også får du opp en kontekst-meny. Her finner du "inspiser". </div>
+            </section>
+            <section class="gallery">
+                    <img src="../img/ToPiler.png" alt="ToPiler" width="210" height="200">
+                <div class="desc">2. Deretter trykker du på ">>", også får opp en liten liste hvor du trykker på "Lighthouse". </div>
+            </section>
+
+            <section class="gallery">
+                    <img src="../img/Lighthouse-report.png" alt="Lhouse" width="210" height="200">
+                <div class="desc">3. Da vil denne siden komme frem. Trykk så på "Desktop" knappen og deretter "Analyze page load".</div>
+                
+             </section>
+            </div>
+
+
+            <p>Vi startet ved å åpne nettleseren og gå til nettsiden vår. Deretter høyreklikket jeg og fant knappen «inspiser» i kontekstmenyen,
+             inne i dette verktøykassen fant vi Lighthouse hvor vi kjørte en tilgjengelighetskontroll. Denne tilgjengelighetskontrollen
+             viste oss en detaljert rapport om hvordan nettsiden vår fungerer for alle brukere. 
+            </p>
+
+
+            <p>Når det kommer til farger valgte vi ikke farger som bare så fine ut, men farger som skiller seg tydelig ut fra nettsiden.
+            Med dette gjør det tydeligere for folk å se hva de kan klikke på. Med andre ord valgte vi farger med tydelig kontrast som
+            virkelig skiller seg ut fra resten av designet, slik at viktige deler av nettsiden blir synlig og forståelig for alle brukere,
+            uavhengig av synsfunksjon. </p>
+
+            <h3>Et eksempel på et problem vi løste:</h3>
+            <img src="../img/lighthouse.png" class="Lighthouse" alt="tilgjenlighet">
+
+            <br> <!--"br" legger inn et enkelt brytelinje-->
+
+            <img src="../img/tilgjengelighet-kontraster.png" class="kontraster" alt="tilgjengelighet-kontraster">
+
+            <br>
+
+            <p>Vi ser på bilde over at "accessibility" er på 88%. Vi får da en feilmelding om at det er for lite kontraster på nettsiden.
+                Da må vi gå å endre fargen på på det som er for lite kontraster, i dette tilfellet var det skriftfargen på footeren som
+                var for lys. Vi endret fargen til en mørkere farge slik at kontrasten ble bedre.
+            </p>
+
+
+            <div class="foto-grid">
+                    <section class="gallery">
+                        <img src="../img/feilmld.png" alt="inspiser" width="200" height="200">
+                    <div class="desc">Dette er et eksempel på feilmeldinger vi kan få.</div>
+                </section>
+    
+                <section class="gallery">
+                        <img src="../img/white-riktig.png" alt="ToPiler" width="200" height="200">
+                    <div class="desc">Her måtte vi endre på skriftfargen fra svart til hvitt.
+                </section>
+    
+                <section class="gallery">
+                        <img src="../img/Accessibility-good.png" alt="Lhouse" width="200" height="200">
+                    <div class="desc">Etter at vi endret fargen tok vi en ny rapport, og vi fikk 100%.</div>
+                 </section>
+                </div>
+        
+    
+            <p>Dette ga oss en score på 100% på tilgjenglighet. Det betyr at nettsiden vår er tilgjenglig for alle brukere.
+            Å jevnlig gå gjennom og løse tilgjengelighetsproblemer er viktig, fordi det sikrer at nettstedet forblir tilgjengelig
+            for alle brukere, selv når det gjøres oppdateringer eller legges til nytt innhold.</p>
+           
+        </section> 
+
+        <footer>
+
+            <h3> OSLO METROPOLITAN UNIVERSITY</h2>
+            <p> STORBYUNIVERSITETET </p>
+            <br>
+            <p>Postboks 4, St. Olavs plass</p>
+            <p>0130 Oslo</p>
+            <p>Tlf.: 67 23 50 00 </p>
+            <p>E-post: post@oslomet.no</p>
+
+            
+          </footer>
+        
+    </body>
+
+    </html>
