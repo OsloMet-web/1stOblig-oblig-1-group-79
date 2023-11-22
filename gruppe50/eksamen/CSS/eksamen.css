@@ -387,6 +387,7 @@ div.desc{
     font-weight: 300;
     line-height: 1.5em;
     padding: 1%;
+    margin-bottom: 4%;
 }
 
 /*Det her er klasse for de to avsnittene ovenfor, her ble display-flex brukt 
