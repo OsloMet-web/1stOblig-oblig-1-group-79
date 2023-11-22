@@ -361,14 +361,15 @@ div.desc{
 .proposed-law, .proposed-law2{ 
     width: 100%;
     padding: 1%;
-    margin-bottom: 10%;
+    
+    margin: auto;
 }
 
 .proposed-law ul, .proposed-law2 ul{
     font-size: 1em;
     font-weight: 300;
     line-height: 1.5em;
-    margin: auto;
+    margin: 1%;
 }
 
 /*Det her er klasse for de to avsnittene ovenfor, her ble display-flex brukt 
