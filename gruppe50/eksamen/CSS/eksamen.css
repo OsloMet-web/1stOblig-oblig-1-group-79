@@ -345,7 +345,7 @@ div.gallery{
 }
 
 
-div.gallery img{
+.gallery img{
     width: 100%;
     height: auto;
 }
@@ -378,15 +378,15 @@ div.desc{
 /*Det her er avsnittene som er skrevet ved siden av hverandre helt nederst*/
 .proposed-law, .proposed-law2{ 
     width: 100%;
-    padding: 10px;
-    margin-bottom: 10%;
+    padding: 1%;
+    margin: auto;
 }
 
 .proposed-law ul, .proposed-law2 ul{
     font-size: 1em;
     font-weight: 300;
     line-height: 1.5em;
-    margin: 2%;
+    margin: 1%;
 }
 
 /*Det her er klasse for de to avsnittene ovenfor, her ble display-flex brukt 
