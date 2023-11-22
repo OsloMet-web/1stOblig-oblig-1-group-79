@@ -360,7 +360,7 @@ div.desc{
     padding-top: 4%;   /* 4% følte vi så best ut når det gjaldt mellomrom mellom bilde og teksten over det */
 }
 
-
+/*Det her er avsnittene som er skrevet ved siden av hverandre helt nederst*/
 .proposed-law, .proposed-law2{ 
     width: 100%;
     padding: 10px;
@@ -374,6 +374,8 @@ div.desc{
     margin: 2%;
 }
 
+/*Det her er klasse for de to avsnittene ovenfor, her ble display-flex brukt 
+for at avsnittene skulle stå ved siden av hverandre*/
 .course2{
     text-align: left;
     margin: auto;
