@@ -99,6 +99,23 @@
     transition: 0.5s;
 }
 
+.generell-info{
+    text-align: left;
+    margin: auto;
+    width: 60%;
+    padding: 7%;
+}
+.generell-info h2{
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+.generell-info p{
+    font-size: 1em;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 2%;
+}
 
 /* Fikset mellomrommet mellom bildet og overskiften "Våre studiestader"*/
 section{
@@ -107,6 +124,12 @@ section{
 }
 
 /*Dette er teskten mellom bildene*/
+.campus{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+
+}
 .campus p{
     color: black;
     font-size: 0.8em;
@@ -120,12 +143,7 @@ section{
     line-height: 210%;
 }
 
-.campus{
-    text-align: center;
-    color: black;
-    font-size: 20px;
 
-}
 
 /*for begge boksene*/
 .row{
