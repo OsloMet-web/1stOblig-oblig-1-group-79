@@ -353,7 +353,36 @@ div.desc{
     justify-content: space-around;
     margin: auto;
     padding-top: 4%;
-    padding-bottom: 2%;
+}
+
+.course2{
+    text-align: left;
+    margin: auto;
+    margin-top: -8%;
+    width: 60%;
+    padding-bottom: 4%;
+    display: flex;
+}
+.proposed-law{ 
+    width: 100%;
+}
+
+.proposed-law ul{
+    font-size: 1em;
+    font-weight: 300;
+    line-height: 1.5em;
+    margin: 2%;
+}
+.proposed-law2{ 
+    width: 100%;
+}
+
+.proposed-law2 ul{
+    font-size: 1em;
+    font-weight: 300;
+    line-height: 1.5em;
+    margin: 2%;
+
 }
 
 #bildeSide3{
@@ -362,14 +391,6 @@ div.desc{
     color: black;
 }
 
-/* Teksten til "potensielt negative sider ved den foreslåtte loven"*/
-.proposed-law ul{
-    font-size: 1em;
-    font-weight: 300;
-    line-height: 1.5em;
-    padding: 2%;
-    margin: 2%;
-}
 
 
   /* Under her er ekstra css for dummy-siden. */
