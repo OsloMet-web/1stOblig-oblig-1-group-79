@@ -390,7 +390,7 @@ div.desc{
     font-size: 1em;
     font-weight: 300;
     line-height: 1.5em;
-    margin: 1%;
+    padding: 1%;
 }
 
 /*Det her er klasse for de to avsnittene ovenfor, her ble display-flex brukt 
