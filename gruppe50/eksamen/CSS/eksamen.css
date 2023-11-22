@@ -197,11 +197,11 @@ hr{
 
 /*referer til bilde av logo i footer i index-siden */
 footer img{              
-    width: 100px;
+    width: 120px;
     position:sticky;
     top: 4%;
     right:auto;
-    height: auto;
+    height: 80px;
 }
 
 
@@ -257,11 +257,7 @@ footer {
 
 
 /*kode for h3 og h4 innenfor footer-taggen */
-footer h3{                  
-    text-align: left;
-    color: white;
-    font-size: 1.1em;
-}
+
 
 footer h4{
     text-align: left;
@@ -275,6 +271,7 @@ footer p{
     font-size: 1em;
     padding:1%;
     text-align: left;
+    padding-left: 2%;
 }
 
 
