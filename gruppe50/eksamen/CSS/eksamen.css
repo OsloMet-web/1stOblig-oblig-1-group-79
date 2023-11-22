@@ -115,17 +115,12 @@ section{
     line-height: 22px;
     padding: 10px;
 }
-.studenter-pilestredet{
+.studenter{
     text-align: center;
     font-size: 16px;
     line-height: 210%;
 }
 
-.studenter-kjeller{
-    text-align: center;
-    font-size: 16px;
-    line-height: 210%;
-}
 .campus{
     text-align: center;
     color: black;
