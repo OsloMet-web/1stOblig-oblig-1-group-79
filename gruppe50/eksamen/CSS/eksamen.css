@@ -353,11 +353,11 @@ div.desc{
 /*Det er tesksten under AI bildet*/
 .row2{
     width: 85%;
-    display: flex;
-    flex-wrap: wrap;
+    display: flex;  /*flex for at bilde skulle midstilles sammen med teksten over*/
+    flex-wrap: wrap; /*brukte wrap slik at teksten under AI-bilde ikke sto ved siden av, men sto nedenfor*/
     justify-content: space-around;
     margin: auto;
-    padding-top: 4%;
+    padding-top: 4%;   /* 4% følte vi så best ut når det gjaldt mellomrom mellom bilde og teksten over det */
 }
 
 
