@@ -455,6 +455,10 @@ article h2, h3, h4{
     }
     .navbar2-links ul li a{
         color:  white;
+
+    }
+    .navbar2-links ul li::after{
+        background: white;
     }
 
     .logo{
