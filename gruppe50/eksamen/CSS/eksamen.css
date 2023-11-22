@@ -355,34 +355,27 @@ div.desc{
     padding-top: 4%;
 }
 
+
+.proposed-law, .proposed-law2{ 
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10%;
+}
+
+.proposed-law ul, .proposed-law2 ul{
+    font-size: 1em;
+    font-weight: 300;
+    line-height: 1.5em;
+    margin: 2%;
+}
+
 .course2{
     text-align: left;
     margin: auto;
     margin-top: -8%;
     width: 60%;
-    padding-bottom: 4%;
+    padding: 4%;
     display: flex;
-}
-.proposed-law{ 
-    width: 100%;
-}
-
-.proposed-law ul{
-    font-size: 1em;
-    font-weight: 300;
-    line-height: 1.5em;
-    margin: 2%;
-}
-.proposed-law2{ 
-    width: 100%;
-}
-
-.proposed-law2 ul{
-    font-size: 1em;
-    font-weight: 300;
-    line-height: 1.5em;
-    margin: 2%;
-
 }
 
 #bildeSide3{
@@ -390,8 +383,6 @@ div.desc{
     font-size: 0.8em;
     color: black;
 }
-
-
 
   /* Under her er ekstra css for dummy-siden. */
 
@@ -499,6 +490,16 @@ article h2, h3, h4{
     }
     .foto-grid{
         grid-template-columns: 1fr;
+    }
+    .course2{
+        text-align: left;
+        margin: auto;
+        margin-top: -8%;
+        width: 60%;
+        padding: 4%;
+        margin-bottom: 5%;
+        display: flex;
+        flex-direction: column;
     }
 
 
