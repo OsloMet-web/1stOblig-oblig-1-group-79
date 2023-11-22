@@ -276,6 +276,11 @@ footer {
 
 /*kode for h3 og h4 innenfor footer-taggen */
 
+footer h3{
+    text-align: left;
+    color: white;
+    font-size: 1.1em;
+}
 
 footer h4{
     text-align: left;
